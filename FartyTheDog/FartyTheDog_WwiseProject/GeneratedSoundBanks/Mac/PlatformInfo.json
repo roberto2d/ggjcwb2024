@@ -16,22 +16,22 @@
   "Settings": {
    "AutoSoundBankDefinition": "true",
    "CopyLooseStreamedMediaFiles": "true",
-   "SubFoldersForGeneratedFiles": "false",
+   "SubFoldersForGeneratedFiles": "true",
    "RemoveUnusedGeneratedFiles": "true",
    "SourceControlGeneratedFiles": "false",
    "GenerateHeaderFile": "false",
    "GenerateContentTxtFile": "true",
    "GenerateMetadataXML": "true",
    "GenerateMetadataJSON": "true",
-   "GenerateAllBanksMetadata": "true",
+   "GenerateAllBanksMetadata": "false",
    "GeneratePerBankMetadata": "true",
    "UseSoundBankNames": "true",
-   "AllowExceedingMaxSize": "false",
+   "AllowExceedingMaxSize": "true",
    "MaxAttenuationInfo": "true",
    "EstimatedDurationInfo": "true",
    "PrintObjectGuid": "true",
    "PrintObjectPath": "true"
   },
-  "FileHash": "{6FDB334D-B7FB-C9AB-8DBE-D3E5D89CAB0A}"
+  "FileHash": "{98506BCE-E4DA-8349-B38A-734DE748B8BC}"
  }
 }
