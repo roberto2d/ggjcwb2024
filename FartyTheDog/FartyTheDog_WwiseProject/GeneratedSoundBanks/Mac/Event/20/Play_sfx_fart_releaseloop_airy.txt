@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2089112687	Play_sfx_fart_releaseloop_airy			\Default Work Unit\Play_sfx_fart_releaseloop_airy	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	263085735	sfx_fart_releaseloop_airy_01	D:\GGJ\GGJCWB2024\ggjcwb2024\FartyTheDog\FartyTheDog_WwiseProject\.cache\Mac\SFX\Farts\sfx_fart_releaseloop_airy\sfx_fart_releaseloop_airy_01_B60E9291.wem	263085735.wem	\Actor-Mixer Hierarchy\Default Work Unit\Farts\sfx_fart_releaseloop_airy\sfx_fart_releaseloop_airy_01	
+

@@ -1,6 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}" SchemaVersion="119">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="OzzyTheFartingDog" ID="{65104AA9-D0C0-493C-AF17-A9C7CE0E87E5}" ShortID="862516874">
+					<PropertyList>
+						<Property Name="GridFrequencyPreset" Type="int16" Value="53"/>
+						<Property Name="Tempo" Type="Real64" Value="98"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{D6E108BC-70D2-4468-8BA5-16B4A50C01D1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{36134C24-A961-4488-8773-7A812AC982CB}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="GameplayMusic" ID="{CF3CE674-F967-4FD0-A0CA-E53DAAA2F583}" ShortID="851163101">
+							<PropertyList>
+								<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{6DBA94F5-6F10-43E9-AC4F-7E275FC9862F}" ShortID="225151297">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{6E41F50D-FD39-41C1-98B9-53E89F50038E}" ShortID="764780681">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Gameplay" ID="{DC9145CA-DD50-4A43-BF5F-40B91AC7F47F}" WorkUnitID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{96FA3E66-36F4-4AEB-A13B-6DDABA0DBD76}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{8952C5B0-8FEE-44BA-94F9-A358C15F7003}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Gameplay" ID="{DC9145CA-DD50-4A43-BF5F-40B91AC7F47F}" ShortID="248349665">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="117551.041666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OzzyTheFartingDog V01" ID="{28680D20-B3B7-46C8-8FC3-CA972D225EEB}" ShortID="617164960">
+											<PropertyList>
+												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-40"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{E68F55DE-2475-40B9-B0AF-F618A890B10A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OzzyTheFartingDog V01" ID="{969C6B27-43D8-4765-9A82-EA1389D160D4}">
+													<Language>SFX</Language>
+													<AudioFile>Music\OzzyTheFartingDog V01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624693265"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{264AAF15-B0C2-4858-B2E0-87C1449724E7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OzzyTheFartingDog V01" ID="{EB45ECF2-5FF0-4B4A-8327-D78EB452B1A9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="117551.041666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OzzyTheFartingDog V01" ID="{969C6B27-43D8-4765-9A82-EA1389D160D4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9A25F39C-579C-49B0-9898-DFE9C4F5E774}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{589E6F63-A103-4F3A-9626-3AB744903B11}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="117551.041666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="STATE_GameState" ID="{915CEB62-D25E-4666-9DBC-9672D4CB8106}" WorkUnitID="{EDB63388-200A-42A6-BAC4-2320C4F58F80}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{E604263A-3B53-46DC-87F4-3F4366D74FBA}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="GameplayMusic" ID="{CF3CE674-F967-4FD0-A0CA-E53DAAA2F583}" WorkUnitID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="STATE_GameState" ID="{915CEB62-D25E-4666-9DBC-9672D4CB8106}" WorkUnitID="{EDB63388-200A-42A6-BAC4-2320C4F58F80}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{38A438D8-A160-4071-B777-03D7B9966E13}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="GameplayMusic" ID="{CF3CE674-F967-4FD0-A0CA-E53DAAA2F583}" WorkUnitID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Gameplay" ID="{7E24061E-B583-46FE-98AB-5359B373E057}" WorkUnitID="{EDB63388-200A-42A6-BAC4-2320C4F58F80}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{CBB698E1-06E6-497B-98A3-8F9AB544B822}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="GameplayMusic" ID="{CF3CE674-F967-4FD0-A0CA-E53DAAA2F583}" WorkUnitID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="None" ID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}" WorkUnitID="{EDB63388-200A-42A6-BAC4-2320C4F58F80}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

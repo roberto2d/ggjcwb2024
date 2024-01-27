@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D83F8618-9C0F-4A2B-BD60-AE8994B39230}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D83F8618-9C0F-4A2B-BD60-AE8994B39230}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D83F8618-9C0F-4A2B-BD60-AE8994B39230}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{EBC9F2F2-FBEC-4982-8BDA-B1854FB855F1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AttackFart" ID="{B2B8C5DA-5933-4172-83E8-13DCCBCE45A6}" WorkUnitID="{325C1BCF-A767-45E0-AB18-8DED47EBE96C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ReleaseFart" ID="{3791BE49-5AAA-4CFA-A4BD-CED09EA4DB52}" WorkUnitID="{325C1BCF-A767-45E0-AB18-8DED47EBE96C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OzzyTheFartingDog" ID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" WorkUnitID="{325C1BCF-A767-45E0-AB18-8DED47EBE96C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_FartBurstVolume" ID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Gameplay" ID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

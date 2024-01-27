@@ -9,6 +9,77 @@
 							<ObjectRef Name="System" ID="{0AE03A00-B07E-4C7D-A16A-97494704F0D7}" WorkUnitID="{1C625E0C-9751-48F7-A6A3-BCC9D2812D13}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{944034AF-31B5-42EF-AA8B-148AA3A00C83}">
+							<ChildrenList>
+								<Bus Name="FartReleaseLoop" ID="{5CF46331-A93C-47CD-BC5F-AEF18A2EBA46}">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{E4A5D8C6-AEFB-4422-9FAC-D2950B86C329}" ShortID="682710785">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_FartBurstVolume" ID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}" WorkUnitID="{FFEF69AF-7DE6-4E32-BA26-DDF41B33D016}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{ABF52CEF-8EBE-49BC-AD04-F4FD2620365A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log3</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="FartBursts" ID="{5E4C7E86-EC00-4C03-A88B-0376D2C222DF}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{AD27A586-BDF1-4625-A02E-A3AA02293C69}" ShortID="30538952">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{32860D55-CA76-4462-8655-D1CBCF32CE36}" ShortID="367174345" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">																		<PluginData>
+	<GameParameter Name="RTPC_FartBurstVolume" ID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MX" ID="{42158A75-1D2E-469F-A1BE-3AD55109B3BB}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

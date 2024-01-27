@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{AA66B646-B308-84B0-CDEF-7D1C6ECABC09}",
+    "Hash": "{B2E2D5AA-7E28-8FAD-93CA-0BE14D345CC6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "367174345",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\FartBursts\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{32860D55-CA76-4462-8655-D1CBCF32CE36}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -36,14 +46,75 @@
     },
     "Busses": [
      {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
+      "GUID": "{944034AF-31B5-42EF-AA8B-148AA3A00C83}"
+     },
+     {
+      "Id": "1154746965",
+      "Name": "FartBursts",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\FartBursts",
+      "GUID": "{5E4C7E86-EC00-4C03-A88B-0376D2C222DF}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "367174345"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1685527054",
+      "Name": "MX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MX",
+      "GUID": "{42158A75-1D2E-469F-A1BE-3AD55109B3BB}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4278941665",
+      "Name": "FartReleaseLoop",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\FartReleaseLoop",
+      "GUID": "{5CF46331-A93C-47CD-BC5F-AEF18A2EBA46}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2900535066",
+      "Name": "RTPC_FartBurstVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_FartBurstVolume",
+      "GUID": "{BF2C029F-F68D-4DB3-B661-1C545D764F40}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1072505152",
+      "Name": "STATE_GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\STATE_GameState",
+      "GUID": "{915CEB62-D25E-4666-9DBC-9672D4CB8106}",
+      "States": [
+       {
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Default Work Unit\\STATE_GameState\\Gameplay",
+        "GUID": "{7E24061E-B583-46FE-98AB-5359B373E057}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\STATE_GameState\\None",
+        "GUID": "{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{BBBB2E0B-C67B-6BBA-18C4-FE37236D6B3D}"
+  "FileHash": "{98E5FE34-37BD-47E1-30CC-256589C312FD}"
  }
 }

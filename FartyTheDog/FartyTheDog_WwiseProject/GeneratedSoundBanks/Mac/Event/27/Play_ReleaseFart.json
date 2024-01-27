@@ -1,0 +1,262 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2706001664",
+    "Type": "Event",
+    "GUID": "{3791BE49-5AAA-4CFA-A4BD-CED09EA4DB52}",
+    "Language": "SFX",
+    "Hash": "{2989368C-4D58-5E1B-6E34-3CEFC6BDFDA6}",
+    "ObjectPath": "Play_ReleaseFart",
+    "ShortName": "Play_ReleaseFart",
+    "Path": "Event/27/Play_ReleaseFart.bnk",
+    "Media": [
+     {
+      "Id": "70342129",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_01.wav",
+      "Path": "Media/70/70342129.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_01_001E3FD6.wem"
+     },
+     {
+      "Id": "87878313",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_06.wav",
+      "Path": "Media/87/87878313.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_06_001E3FD6.wem"
+     },
+     {
+      "Id": "165796762",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_03.wav",
+      "Path": "Media/16/165796762.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_03_001E3FD6.wem"
+     },
+     {
+      "Id": "217244771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_08.wav",
+      "Path": "Media/21/217244771.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_08_001E3FD6.wem"
+     },
+     {
+      "Id": "242487941",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_05.wav",
+      "Path": "Media/24/242487941.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_05_C34722CF.wem"
+     },
+     {
+      "Id": "263085735",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fart_releaseloop_airy\\sfx_fart_releaseloop_airy_01.wav",
+      "Path": "Media/26/263085735.wem",
+      "CachePath": "SFX/Farts/sfx_fart_releaseloop_airy/sfx_fart_releaseloop_airy_01_B60E9291.wem"
+     },
+     {
+      "Id": "302189967",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_06.wav",
+      "Path": "Media/30/302189967.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_06_C34722CF.wem"
+     },
+     {
+      "Id": "569907049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_07.wav",
+      "Path": "Media/56/569907049.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_07_C34722CF.wem"
+     },
+     {
+      "Id": "596814454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_04.wav",
+      "Path": "Media/59/596814454.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_04_001E3FD6.wem"
+     },
+     {
+      "Id": "603341875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_01.wav",
+      "Path": "Media/60/603341875.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_01_C34722CF.wem"
+     },
+     {
+      "Id": "669967296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_04.wav",
+      "Path": "Media/66/669967296.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_04_C34722CF.wem"
+     },
+     {
+      "Id": "683769354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_07.wav",
+      "Path": "Media/68/683769354.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_07_001E3FD6.wem"
+     },
+     {
+      "Id": "744560995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_03.wav",
+      "Path": "Media/74/744560995.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_03_C34722CF.wem"
+     },
+     {
+      "Id": "762914709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_05.wav",
+      "Path": "Media/76/762914709.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_05_001E3FD6.wem"
+     },
+     {
+      "Id": "785834906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_09.wav",
+      "Path": "Media/78/785834906.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_09_001E3FD6.wem"
+     },
+     {
+      "Id": "821353649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_09.wav",
+      "Path": "Media/82/821353649.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_09_C34722CF.wem"
+     },
+     {
+      "Id": "903133036",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartshortburst\\sfx_fartshortburst_02.wav",
+      "Path": "Media/90/903133036.wem",
+      "CachePath": "SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_02_001E3FD6.wem"
+     },
+     {
+      "Id": "1024130283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_02.wav",
+      "Path": "Media/10/1024130283.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_02_C34722CF.wem"
+     },
+     {
+      "Id": "1056127262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fartreleasesweetener\\sfx_fartreleasesweetener_08.wav",
+      "Path": "Media/10/1056127262.wem",
+      "CachePath": "SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_08_C34722CF.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2706001664",
+      "Name": "Play_ReleaseFart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ReleaseFart",
+      "GUID": "{3791BE49-5AAA-4CFA-A4BD-CED09EA4DB52}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "70342129"
+       },
+       {
+        "Id": "87878313"
+       },
+       {
+        "Id": "165796762"
+       },
+       {
+        "Id": "217244771"
+       },
+       {
+        "Id": "242487941"
+       },
+       {
+        "Id": "263085735"
+       },
+       {
+        "Id": "302189967"
+       },
+       {
+        "Id": "569907049"
+       },
+       {
+        "Id": "596814454"
+       },
+       {
+        "Id": "603341875"
+       },
+       {
+        "Id": "669967296"
+       },
+       {
+        "Id": "683769354"
+       },
+       {
+        "Id": "744560995"
+       },
+       {
+        "Id": "762914709"
+       },
+       {
+        "Id": "785834906"
+       },
+       {
+        "Id": "821353649"
+       },
+       {
+        "Id": "903133036"
+       },
+       {
+        "Id": "1024130283"
+       },
+       {
+        "Id": "1056127262"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{081694CE-9003-5E17-E4B7-9F543956500E}"
+ }
+}

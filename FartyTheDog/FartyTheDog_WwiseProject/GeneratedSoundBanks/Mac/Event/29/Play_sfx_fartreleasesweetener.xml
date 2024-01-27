@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2950897974" Type="Event" GUID="{7263F35D-14DC-410D-A5E8-A78F8AA804E2}" Language="SFX" Hash="{6D0ABE7E-63BC-7431-993F-8869B8226AA4}">
+			<ObjectPath>Play_sfx_fartreleasesweetener</ObjectPath>
+			<ShortName>Play_sfx_fartreleasesweetener</ShortName>
+			<Path>Event/29/Play_sfx_fartreleasesweetener.bnk</Path>
+			<Media>
+				<File Id="242487941" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_05.wav</ShortName>
+					<Path>Media/24/242487941.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_05_C34722CF.wem</CachePath>
+				</File>
+				<File Id="302189967" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_06.wav</ShortName>
+					<Path>Media/30/302189967.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_06_C34722CF.wem</CachePath>
+				</File>
+				<File Id="569907049" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_07.wav</ShortName>
+					<Path>Media/56/569907049.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_07_C34722CF.wem</CachePath>
+				</File>
+				<File Id="603341875" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_01.wav</ShortName>
+					<Path>Media/60/603341875.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_01_C34722CF.wem</CachePath>
+				</File>
+				<File Id="669967296" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_04.wav</ShortName>
+					<Path>Media/66/669967296.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_04_C34722CF.wem</CachePath>
+				</File>
+				<File Id="744560995" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_03.wav</ShortName>
+					<Path>Media/74/744560995.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_03_C34722CF.wem</CachePath>
+				</File>
+				<File Id="821353649" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_09.wav</ShortName>
+					<Path>Media/82/821353649.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_09_C34722CF.wem</CachePath>
+				</File>
+				<File Id="1024130283" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_02.wav</ShortName>
+					<Path>Media/10/1024130283.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_02_C34722CF.wem</CachePath>
+				</File>
+				<File Id="1056127262" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_08.wav</ShortName>
+					<Path>Media/10/1056127262.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartreleasesweetener/sfx_fartreleasesweetener_08_C34722CF.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2950897974" Name="Play_sfx_fartreleasesweetener" ObjectPath="\Events\Default Work Unit\Play_sfx_fartreleasesweetener" GUID="{7263F35D-14DC-410D-A5E8-A78F8AA804E2}" DurationType="OneShot" DurationMin="0.35747916" DurationMax="0.7602292">
+					<MediaRefs>
+						<MediaRef Id="242487941"/>
+						<MediaRef Id="302189967"/>
+						<MediaRef Id="569907049"/>
+						<MediaRef Id="603341875"/>
+						<MediaRef Id="669967296"/>
+						<MediaRef Id="744560995"/>
+						<MediaRef Id="821353649"/>
+						<MediaRef Id="1024130283"/>
+						<MediaRef Id="1056127262"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2AC7CBD4-836F-4D15-1C54-4EDCD84B5F9F}</FileHash>
+</SoundBanksInfo>

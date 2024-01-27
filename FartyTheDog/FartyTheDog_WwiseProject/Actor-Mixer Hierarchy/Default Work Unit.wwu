@@ -36,6 +36,635 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Farts" ID="{1F760C3E-6F11-4515-9B02-B9B26897324E}" ShortID="11932266">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="LoudnessNormalizationType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="sfx_fart_attacksweetener" ID="{E1CDF71C-789E-4EAE-A835-DD22D3A201D1}" ShortID="202979938">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-45"/>
+								<Property Name="LoudnessNormalizationType" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FartBursts" ID="{5E4C7E86-EC00-4C03-A88B-0376D2C222DF}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_fart_attacksweetener_01" ID="{85E0A8D5-89B5-4294-8596-5F9D37BC6A47}" ShortID="867064518">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fart_attacksweetener_01" ID="{FCB534D2-77CB-42DB-A18C-789AC8860246}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017152405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fart_attacksweetener_01" ID="{FCB534D2-77CB-42DB-A18C-789AC8860246}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fart_attacksweetener_02" ID="{222E28B5-756B-44C3-BB50-5D4072A6AB57}" ShortID="476248762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fart_attacksweetener_02" ID="{A016C075-1240-40AF-A483-795F4D0AD02B}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872716601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fart_attacksweetener_02" ID="{A016C075-1240-40AF-A483-795F4D0AD02B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fart_attacksweetener_03" ID="{68291904-F7F7-4257-BDE0-6F9A5EBF2C13}" ShortID="382170692">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fart_attacksweetener_03" ID="{2EED12A6-D469-4FFA-991A-1105C3C50C2A}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470495190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fart_attacksweetener_03" ID="{2EED12A6-D469-4FFA-991A-1105C3C50C2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="sfx_fartreleasesweetener" ID="{AB70A6C3-2AB8-4662-A6BE-9CF43BFDD707}" ShortID="1035688905">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-40"/>
+								<Property Name="LoudnessNormalizationType" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FartBursts" ID="{5E4C7E86-EC00-4C03-A88B-0376D2C222DF}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_fartreleasesweetener_01" ID="{32C7CBC7-DE44-4391-8B0D-186A1D3335B8}" ShortID="573389757">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_01" ID="{55B4F3D9-C0E4-4867-B1CE-C0ADA6FB8368}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603341875"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_01" ID="{55B4F3D9-C0E4-4867-B1CE-C0ADA6FB8368}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_02" ID="{A029983D-0F42-47E5-B71F-BDF672F465B2}" ShortID="534410804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_02" ID="{D75DE711-2477-460D-838E-AF1368074899}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1024130283"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_02" ID="{D75DE711-2477-460D-838E-AF1368074899}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_03" ID="{7B67897D-15F6-4853-9B3E-A801901E744C}" ShortID="575051580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_03" ID="{95B82E0C-6975-49F8-9301-7B84B89048CD}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744560995"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_03" ID="{95B82E0C-6975-49F8-9301-7B84B89048CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_04" ID="{F8CAB5A2-99C1-4344-A8BD-F8778DB50C87}" ShortID="882376947">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_04" ID="{C6A7B356-6E4F-445D-A1FC-90D436D3A075}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669967296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_04" ID="{C6A7B356-6E4F-445D-A1FC-90D436D3A075}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_05" ID="{5D3E82AE-C188-4A93-8B9C-73ED90F0894E}" ShortID="4695094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_05" ID="{1D432099-D55D-4459-99D7-E9652944A3E8}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="242487941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_05" ID="{1D432099-D55D-4459-99D7-E9652944A3E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_06" ID="{3269DCC8-EE82-47ED-A419-59AE37D4014F}" ShortID="762792712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_06" ID="{ECA1E8B4-7773-455D-BBB9-79B0BDDCF3AE}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302189967"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_06" ID="{ECA1E8B4-7773-455D-BBB9-79B0BDDCF3AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_07" ID="{5E0C473E-3405-4207-B7E7-704ABD0C2899}" ShortID="565153428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_07" ID="{705A1399-B1D6-4E8C-9E49-6B4D6386EEAF}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="569907049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_07" ID="{705A1399-B1D6-4E8C-9E49-6B4D6386EEAF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_08" ID="{5CF3D574-49F4-4BFD-80EA-91FBC1E6C583}" ShortID="236890889">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_08" ID="{FA8D74F8-DCC2-4243-87C5-AD0A98904CE5}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056127262"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_08" ID="{FA8D74F8-DCC2-4243-87C5-AD0A98904CE5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartreleasesweetener_09" ID="{AB985536-AB8B-460F-B557-3EDADE594FA4}" ShortID="498650863">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartreleasesweetener_09" ID="{2A031815-66E4-4B0D-9DF1-0744A58A7DCF}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartreleasesweetener\sfx_fartreleasesweetener_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821353649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartreleasesweetener_09" ID="{2A031815-66E4-4B0D-9DF1-0744A58A7DCF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="sfx_fartshortburst" ID="{336F4194-7FAE-438C-9EE9-A1E684689696}" ShortID="783899576">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-25"/>
+								<Property Name="LoudnessNormalizationType" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FartBursts" ID="{5E4C7E86-EC00-4C03-A88B-0376D2C222DF}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_fartshortburst_01" ID="{E8B3E030-AE02-4DAA-8808-356D6BEE7B19}" ShortID="152961191">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_01" ID="{87973189-6790-477A-A865-972529AF80C9}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70342129"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_01" ID="{87973189-6790-477A-A865-972529AF80C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_02" ID="{1563C637-67C7-4DF0-8820-86F533F26B6F}" ShortID="33841428">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_02" ID="{DBECB95D-E331-49C7-B8F8-E4636BB00533}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="903133036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_02" ID="{DBECB95D-E331-49C7-B8F8-E4636BB00533}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_03" ID="{1362F2E1-2A76-4493-BED1-2ED4569240D0}" ShortID="365193179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_03" ID="{DD25A50F-6D08-4DDF-B911-B0A881A82F9F}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165796762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_03" ID="{DD25A50F-6D08-4DDF-B911-B0A881A82F9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_04" ID="{5643224E-3D0F-41BE-B861-835D509ABD18}" ShortID="291922414">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_04" ID="{A0205519-F79D-43EC-811D-035A58AD1784}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="596814454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_04" ID="{A0205519-F79D-43EC-811D-035A58AD1784}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_05" ID="{CC4E514B-5DFF-43F3-AE03-39CAF0C1B03D}" ShortID="1008702813">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_05" ID="{4C3632DF-EB7F-466F-8833-31AD13028173}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="762914709"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_05" ID="{4C3632DF-EB7F-466F-8833-31AD13028173}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_06" ID="{EF0BDF62-F10B-4B6E-82FD-BACB8E3DDC35}" ShortID="1050824491">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_06" ID="{5006B69F-5A7A-4B9B-9B0F-3ECB376F9B9D}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="87878313"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_06" ID="{5006B69F-5A7A-4B9B-9B0F-3ECB376F9B9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_07" ID="{E4C8D64C-1765-49E8-A59B-2BE79DC29F59}" ShortID="830935336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_07" ID="{B5C9BE8A-FD7A-413B-A7C6-903B08707B7D}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683769354"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_07" ID="{B5C9BE8A-FD7A-413B-A7C6-903B08707B7D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_08" ID="{6D5A207C-4FB4-437C-A153-23C1D098626E}" ShortID="492468881">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_08" ID="{F8E870E2-B95A-4C5D-955E-787566A70EC2}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217244771"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_08" ID="{F8E870E2-B95A-4C5D-955E-787566A70EC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_fartshortburst_09" ID="{84D75B4B-2B60-4435-8DF8-D0FE0EDD9970}" ShortID="872946408">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fartshortburst_09" ID="{9FF0306C-82FB-46C8-9B23-6FC6815BC45B}">
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fartshortburst\sfx_fartshortburst_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="785834906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fartshortburst_09" ID="{9FF0306C-82FB-46C8-9B23-6FC6815BC45B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="sfx_fart_releaseloop_airy" ID="{4F11AD7C-3D76-4191-8101-4298AF97301E}" ShortID="594143677">
+							<PropertyList>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="LoudnessNormalizationTarget" Type="Real64" Value="-40"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="FartReleaseLoop" ID="{5CF46331-A93C-47CD-BC5F-AEF18A2EBA46}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_fart_releaseloop_airy_01" ID="{9CB2E91F-E257-4361-8BD1-8784B2BF2D50}" ShortID="787751837">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_fart_releaseloop_airy_01" ID="{6CA56DB9-95D7-4542-A591-7636178017AE}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="42.664"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.162202456482837"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.310558361802505"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.197807873759558"/>
+												<Property Name="LoopEnd" Type="Real64" Value="3.69307300309094"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Farts\sfx_fart_releaseloop_airy\sfx_fart_releaseloop_airy_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263085735"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_fart_releaseloop_airy_01" ID="{6CA56DB9-95D7-4542-A591-7636178017AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

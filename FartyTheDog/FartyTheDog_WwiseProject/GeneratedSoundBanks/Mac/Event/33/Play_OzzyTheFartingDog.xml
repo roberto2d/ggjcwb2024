@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{5A40092A-2E87-88EE-30B4-5AA0927947EA}">
+			<ObjectPath>Play_OzzyTheFartingDog</ObjectPath>
+			<ShortName>Play_OzzyTheFartingDog</ShortName>
+			<Path>Event/33/Play_OzzyTheFartingDog.bnk</Path>
+			<Media>
+				<File Id="624693265" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Music\OzzyTheFartingDog V01.wav</ShortName>
+					<Path>Media/62/624693265.wem</Path>
+					<CachePath>SFX/Music/OzzyTheFartingDog V01_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3307764568" Name="Play_OzzyTheFartingDog" ObjectPath="\Events\Default Work Unit\Play_OzzyTheFartingDog" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1072505152" Id="0" GUID="{915CEB62-D25E-4666-9DBC-9672D4CB8106}"/>
+							<MediaRefs>
+								<MediaRef Id="624693265"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1072505152" Id="89505537" GUID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
+							<MediaRefs>
+								<MediaRef Id="624693265"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1072505152" Id="748895195" GUID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"/>
+							<MediaRefs>
+								<MediaRef Id="624693265"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1072505152" Name="STATE_GameState" ObjectPath="\States\Default Work Unit\STATE_GameState" GUID="{915CEB62-D25E-4666-9DBC-9672D4CB8106}">
+					<States>
+						<State Id="89505537" Name="Gameplay" ObjectPath="\States\Default Work Unit\STATE_GameState\Gameplay" GUID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\STATE_GameState\None" GUID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{77DD8CCA-E12D-D3E7-4185-BC184BE5565E}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2306319378",
+    "Type": "Event",
+    "GUID": "{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}",
+    "Language": "SFX",
+    "Hash": "{3FD8B958-6209-351A-5900-3A342F14FD3E}",
+    "ObjectPath": "Play_sfx_fart_attacksweetener",
+    "ShortName": "Play_sfx_fart_attacksweetener",
+    "Path": "Event/23/Play_sfx_fart_attacksweetener.bnk",
+    "Media": [
+     {
+      "Id": "470495190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fart_attacksweetener\\sfx_fart_attacksweetener_03.wav",
+      "Path": "Media/47/470495190.wem",
+      "CachePath": "SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_03_79C0B181.wem"
+     },
+     {
+      "Id": "872716601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fart_attacksweetener\\sfx_fart_attacksweetener_02.wav",
+      "Path": "Media/87/872716601.wem",
+      "CachePath": "SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_02_79C0B181.wem"
+     },
+     {
+      "Id": "1017152405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Farts\\sfx_fart_attacksweetener\\sfx_fart_attacksweetener_01.wav",
+      "Path": "Media/10/1017152405.wem",
+      "CachePath": "SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_01_79C0B181.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2306319378",
+      "Name": "Play_sfx_fart_attacksweetener",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_fart_attacksweetener",
+      "GUID": "{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6645",
+      "DurationMax": "1.69625",
+      "MediaRefs": [
+       {
+        "Id": "470495190"
+       },
+       {
+        "Id": "872716601"
+       },
+       {
+        "Id": "1017152405"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3D1FD95B-A8D3-C0CB-1C9A-08799467D6F2}"
+ }
+}

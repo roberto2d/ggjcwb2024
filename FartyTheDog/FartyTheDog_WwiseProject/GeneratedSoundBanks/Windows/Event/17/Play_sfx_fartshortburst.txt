@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1794954239	Play_sfx_fartshortburst			\Default Work Unit\Play_sfx_fartshortburst	
+

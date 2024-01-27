@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2306319378" Type="Event" GUID="{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}" Language="SFX" Hash="{3FD8B958-6209-351A-5900-3A342F14FD3E}">
+			<ObjectPath>Play_sfx_fart_attacksweetener</ObjectPath>
+			<ShortName>Play_sfx_fart_attacksweetener</ShortName>
+			<Path>Event/23/Play_sfx_fart_attacksweetener.bnk</Path>
+			<Media>
+				<File Id="470495190" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_03.wav</ShortName>
+					<Path>Media/47/470495190.wem</Path>
+					<CachePath>SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_03_79C0B181.wem</CachePath>
+				</File>
+				<File Id="872716601" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_02.wav</ShortName>
+					<Path>Media/87/872716601.wem</Path>
+					<CachePath>SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_02_79C0B181.wem</CachePath>
+				</File>
+				<File Id="1017152405" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fart_attacksweetener\sfx_fart_attacksweetener_01.wav</ShortName>
+					<Path>Media/10/1017152405.wem</Path>
+					<CachePath>SFX/Farts/sfx_fart_attacksweetener/sfx_fart_attacksweetener_01_79C0B181.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2306319378" Name="Play_sfx_fart_attacksweetener" ObjectPath="\Events\Default Work Unit\Play_sfx_fart_attacksweetener" GUID="{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}" DurationType="OneShot" DurationMin="1.6645" DurationMax="1.69625">
+					<MediaRefs>
+						<MediaRef Id="470495190"/>
+						<MediaRef Id="872716601"/>
+						<MediaRef Id="1017152405"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5FD298EE-A8DB-1238-9CBA-9438E85ED901}</FileHash>
+</SoundBanksInfo>

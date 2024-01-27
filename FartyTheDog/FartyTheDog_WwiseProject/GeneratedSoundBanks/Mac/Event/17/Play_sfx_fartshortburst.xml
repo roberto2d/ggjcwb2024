@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1794954239" Type="Event" GUID="{356ABB0E-A859-4E3E-973B-7A4D7D5AE143}" Language="SFX" Hash="{F1B1CD1B-274A-3BD0-805E-60F6824E0BA8}">
+			<ObjectPath>Play_sfx_fartshortburst</ObjectPath>
+			<ShortName>Play_sfx_fartshortburst</ShortName>
+			<Path>Event/17/Play_sfx_fartshortburst.bnk</Path>
+			<Media>
+				<File Id="70342129" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_01.wav</ShortName>
+					<Path>Media/70/70342129.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_01_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="87878313" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_06.wav</ShortName>
+					<Path>Media/87/87878313.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_06_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="165796762" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_03.wav</ShortName>
+					<Path>Media/16/165796762.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_03_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="217244771" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_08.wav</ShortName>
+					<Path>Media/21/217244771.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_08_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="596814454" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_04.wav</ShortName>
+					<Path>Media/59/596814454.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_04_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="683769354" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_07.wav</ShortName>
+					<Path>Media/68/683769354.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_07_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="762914709" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_05.wav</ShortName>
+					<Path>Media/76/762914709.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_05_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="785834906" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_09.wav</ShortName>
+					<Path>Media/78/785834906.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_09_001E3FD6.wem</CachePath>
+				</File>
+				<File Id="903133036" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Farts\sfx_fartshortburst\sfx_fartshortburst_02.wav</ShortName>
+					<Path>Media/90/903133036.wem</Path>
+					<CachePath>SFX/Farts/sfx_fartshortburst/sfx_fartshortburst_02_001E3FD6.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1794954239" Name="Play_sfx_fartshortburst" ObjectPath="\Events\Default Work Unit\Play_sfx_fartshortburst" GUID="{356ABB0E-A859-4E3E-973B-7A4D7D5AE143}" DurationType="OneShot" DurationMin="0.22164583" DurationMax="0.5541458">
+					<MediaRefs>
+						<MediaRef Id="70342129"/>
+						<MediaRef Id="87878313"/>
+						<MediaRef Id="165796762"/>
+						<MediaRef Id="217244771"/>
+						<MediaRef Id="596814454"/>
+						<MediaRef Id="683769354"/>
+						<MediaRef Id="762914709"/>
+						<MediaRef Id="785834906"/>
+						<MediaRef Id="903133036"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D21E2927-FFE3-2922-3ACD-477CF7A1B472}</FileHash>
+</SoundBanksInfo>

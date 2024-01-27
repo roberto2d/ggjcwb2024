@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FFEF69AF-7DE6-4E32-BA26-DDF41B33D016}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FFEF69AF-7DE6-4E32-BA26-DDF41B33D016}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FFEF69AF-7DE6-4E32-BA26-DDF41B33D016}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_FartBurstVolume" ID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-50"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

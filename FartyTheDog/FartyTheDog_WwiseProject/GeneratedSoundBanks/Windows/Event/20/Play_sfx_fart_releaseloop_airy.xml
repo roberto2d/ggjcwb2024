@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2089112687" Type="Event" GUID="{F34771FC-DF78-4860-9812-313306F9D469}" Language="SFX" Hash="{D7270888-AC1A-5731-70E5-2CE046693E00}">
+			<ObjectPath>Play_sfx_fart_releaseloop_airy</ObjectPath>
+			<ShortName>Play_sfx_fart_releaseloop_airy</ShortName>
+			<Path>Event/20/Play_sfx_fart_releaseloop_airy.bnk</Path>
+			<Media>
+				<File Id="263085735" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Farts\sfx_fart_releaseloop_airy\sfx_fart_releaseloop_airy_01.wav</ShortName>
+					<Path>Media/26/263085735.wem</Path>
+					<CachePath>SFX/Farts/sfx_fart_releaseloop_airy/sfx_fart_releaseloop_airy_01_B60E9291.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2089112687" Name="Play_sfx_fart_releaseloop_airy" ObjectPath="\Events\Default Work Unit\Play_sfx_fart_releaseloop_airy" GUID="{F34771FC-DF78-4860-9812-313306F9D469}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="263085735"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D457B082-D1A5-A91E-3CE4-ECA014CE0B0D}</FileHash>
+</SoundBanksInfo>

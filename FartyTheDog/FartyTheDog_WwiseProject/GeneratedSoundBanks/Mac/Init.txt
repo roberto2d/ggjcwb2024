@@ -1,5 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1072505152	STATE_GameState			\Default Work Unit\STATE_GameState	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	STATE_GameState			
+	748895195	None	STATE_GameState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2900535066	RTPC_FartBurstVolume			\Default Work Unit\RTPC_FartBurstVolume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1154746965	FartBursts			\Default Work Unit\Master Audio Bus\SFX\FartBursts	
+	1685527054	MX			\Default Work Unit\Master Audio Bus\MX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4278941665	FartReleaseLoop			\Default Work Unit\Master Audio Bus\SFX\FartReleaseLoop	
+
+Effect plug-ins	ID	Name	Type				Notes
+	367174345	Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

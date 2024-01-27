@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3307764568	Play_OzzyTheFartingDog			\Default Work Unit\Play_OzzyTheFartingDog	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1072505152	STATE_GameState			\Default Work Unit\STATE_GameState	
+
+State	ID	Name	State Group			Notes
+	89505537	Gameplay	STATE_GameState			
+	748895195	None	STATE_GameState			
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	624693265	OzzyTheFartingDog V01	D:\GGJ\GGJCWB2024\ggjcwb2024\FartyTheDog\FartyTheDog_WwiseProject\.cache\Windows\SFX\Music\OzzyTheFartingDog V01_FBC78EF0.wem	624693265.wem	\Interactive Music Hierarchy\Default Work Unit\OzzyTheFartingDog\GameplayMusic\Gameplay\OzzyTheFartingDog V01	
+

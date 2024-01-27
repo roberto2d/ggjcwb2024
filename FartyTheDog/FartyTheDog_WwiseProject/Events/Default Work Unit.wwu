@@ -14,6 +14,120 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_sfx_fart_attacksweetener" ID="{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}">
+					<ChildrenList>
+						<Action Name="" ID="{973FFD00-5521-433D-BDAC-A43164253585}" ShortID="158664465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fart_attacksweetener" ID="{E1CDF71C-789E-4EAE-A835-DD22D3A201D1}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_fart_releaseloop_airy" ID="{F34771FC-DF78-4860-9812-313306F9D469}">
+					<ChildrenList>
+						<Action Name="" ID="{A412B4FF-D2CB-4AAE-9D2E-B215E97F9D02}" ShortID="532526801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fart_releaseloop_airy" ID="{4F11AD7C-3D76-4191-8101-4298AF97301E}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_fartreleasesweetener" ID="{7263F35D-14DC-410D-A5E8-A78F8AA804E2}">
+					<ChildrenList>
+						<Action Name="" ID="{AE1A4D53-49A2-450F-9515-EF0397D08EA7}" ShortID="516593057">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fartreleasesweetener" ID="{AB70A6C3-2AB8-4662-A6BE-9CF43BFDD707}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_fartshortburst" ID="{356ABB0E-A859-4E3E-973B-7A4D7D5AE143}">
+					<ChildrenList>
+						<Action Name="" ID="{2216B49F-3909-4E88-9346-669ED00D60BD}" ShortID="705461996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fartshortburst" ID="{336F4194-7FAE-438C-9EE9-A1E684689696}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AttackFart" ID="{B2B8C5DA-5933-4172-83E8-13DCCBCE45A6}">
+					<ChildrenList>
+						<Action Name="" ID="{6BFB4A41-5CFE-4B13-AB6D-F2422829DFA2}" ShortID="907895561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fart_attacksweetener" ID="{E1CDF71C-789E-4EAE-A835-DD22D3A201D1}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54CC9157-0F14-4B0B-8455-B856D15DF647}" ShortID="158028278">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fartshortburst" ID="{336F4194-7FAE-438C-9EE9-A1E684689696}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ReleaseFart" ID="{3791BE49-5AAA-4CFA-A4BD-CED09EA4DB52}">
+					<ChildrenList>
+						<Action Name="" ID="{D9300E70-07B6-428D-9AF4-2950C9B04F28}" ShortID="434161942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fart_releaseloop_airy" ID="{4F11AD7C-3D76-4191-8101-4298AF97301E}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EE3A00C9-930F-41D1-A5FD-1577D8BBADAD}" ShortID="935925503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fartreleasesweetener" ID="{AB70A6C3-2AB8-4662-A6BE-9CF43BFDD707}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F60408A2-B14A-46EE-BE67-30AB1EF98084}" ShortID="815104185">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fartshortburst" ID="{336F4194-7FAE-438C-9EE9-A1E684689696}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OzzyTheFartingDog" ID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}">
+					<ChildrenList>
+						<Action Name="" ID="{C2033F72-DEB0-4162-B977-B9FAA0455F30}" ShortID="865963478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OzzyTheFartingDog" ID="{65104AA9-D0C0-493C-AF17-A9C7CE0E87E5}" WorkUnitID="{4F054352-DE0D-4194-9A04-6EE5C69B560A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ReleaseFart" ID="{F76F62B1-F4DF-4207-ABE0-AAA91803638A}">
+					<ChildrenList>
+						<Action Name="" ID="{4228087F-3EA7-4A0A-A6A5-D10B70CCF9AF}" ShortID="990664005">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_fart_releaseloop_airy" ID="{4F11AD7C-3D76-4191-8101-4298AF97301E}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
