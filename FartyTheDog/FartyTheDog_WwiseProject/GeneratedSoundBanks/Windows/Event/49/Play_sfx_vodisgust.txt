@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	499695092	Play_sfx_vodisgust			\Default Work Unit\Play_sfx_vodisgust	
+

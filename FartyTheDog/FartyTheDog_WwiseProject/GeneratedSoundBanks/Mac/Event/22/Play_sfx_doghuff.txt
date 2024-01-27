@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2289371893	Play_sfx_doghuff			\Default Work Unit\Play_sfx_doghuff	
+

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "499695092",
+    "Type": "Event",
+    "GUID": "{B860D0DC-8E3F-4EFA-983F-D91E459CB540}",
+    "Language": "SFX",
+    "Hash": "{F21A223D-77CF-79A3-9053-387BC43971EC}",
+    "ObjectPath": "Play_sfx_vodisgust",
+    "ShortName": "Play_sfx_vodisgust",
+    "Path": "Event/49/Play_sfx_vodisgust.bnk",
+    "Media": [
+     {
+      "Id": "163410441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_vodisgust\\sfx_vodisgust_03.wav",
+      "Path": "Media/16/163410441.wem",
+      "CachePath": "SFX/Enemies/sfx_vodisgust/sfx_vodisgust_03_818F3B66.wem"
+     },
+     {
+      "Id": "355412818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_vodisgust\\sfx_vodisgust_01.wav",
+      "Path": "Media/35/355412818.wem",
+      "CachePath": "SFX/Enemies/sfx_vodisgust/sfx_vodisgust_01_818F3B66.wem"
+     },
+     {
+      "Id": "673802976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_vodisgust\\sfx_vodisgust_02.wav",
+      "Path": "Media/67/673802976.wem",
+      "CachePath": "SFX/Enemies/sfx_vodisgust/sfx_vodisgust_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "499695092",
+      "Name": "Play_sfx_vodisgust",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_vodisgust",
+      "GUID": "{B860D0DC-8E3F-4EFA-983F-D91E459CB540}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8457292",
+      "DurationMax": "1.1012083",
+      "MediaRefs": [
+       {
+        "Id": "163410441"
+       },
+       {
+        "Id": "355412818"
+       },
+       {
+        "Id": "673802976"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{46DDCCEE-0EFB-B67D-08A0-33D467F5155B}"
+ }
+}

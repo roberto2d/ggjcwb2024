@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1176091886",
+    "Type": "Event",
+    "GUID": "{21E094C6-9F7D-4E6C-9437-416132EB5D5E}",
+    "Language": "SFX",
+    "Hash": "{25E3E688-5AFB-C706-34F7-22761B856EC1}",
+    "ObjectPath": "Play_sfx_catmeow",
+    "ShortName": "Play_sfx_catmeow",
+    "Path": "Event/11/Play_sfx_catmeow.bnk",
+    "Media": [
+     {
+      "Id": "304749919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_catmeow\\sfx_catmeow_01.wav",
+      "Path": "Media/30/304749919.wem",
+      "CachePath": "SFX/Enemies/sfx_catmeow/sfx_catmeow_01_818F3B66.wem"
+     },
+     {
+      "Id": "357755745",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_catmeow\\sfx_catmeow_02.wav",
+      "Path": "Media/35/357755745.wem",
+      "CachePath": "SFX/Enemies/sfx_catmeow/sfx_catmeow_02_818F3B66.wem"
+     },
+     {
+      "Id": "989149468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_catmeow\\sfx_catmeow_03.wav",
+      "Path": "Media/98/989149468.wem",
+      "CachePath": "SFX/Enemies/sfx_catmeow/sfx_catmeow_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1176091886",
+      "Name": "Play_sfx_catmeow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_catmeow",
+      "GUID": "{21E094C6-9F7D-4E6C-9437-416132EB5D5E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.93779165",
+      "DurationMax": "1.222375",
+      "MediaRefs": [
+       {
+        "Id": "304749919"
+       },
+       {
+        "Id": "357755745"
+       },
+       {
+        "Id": "989149468"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{46E1785C-564D-D5E0-1ADB-88592079DB5F}"
+ }
+}

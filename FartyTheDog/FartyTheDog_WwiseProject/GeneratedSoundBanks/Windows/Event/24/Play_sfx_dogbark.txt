@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	249248366	Play_sfx_dogbark			\Default Work Unit\Play_sfx_dogbark	
+

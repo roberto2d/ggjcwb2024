@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3132378915",
+    "Type": "Event",
+    "GUID": "{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}",
+    "Language": "SFX",
+    "Hash": "{415B0E91-4AA9-A56B-AD00-25BBAF9AF5A1}",
+    "ObjectPath": "Play_amb_rural_01",
+    "ShortName": "Play_amb_rural_01",
+    "Path": "Event/31/Play_amb_rural_01.bnk",
+    "Media": [
+     {
+      "Id": "654515496",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Ambience\\amb_rural\\amb_rural_01.wav",
+      "Path": "Media/65/654515496.wem",
+      "CachePath": "SFX/Ambience/amb_rural/amb_rural_01_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3132378915",
+      "Name": "Play_amb_rural_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_amb_rural_01",
+      "GUID": "{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "654515496"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{13A56655-1C2C-A090-1BA8-D9F6D00F3895}"
+ }
+}

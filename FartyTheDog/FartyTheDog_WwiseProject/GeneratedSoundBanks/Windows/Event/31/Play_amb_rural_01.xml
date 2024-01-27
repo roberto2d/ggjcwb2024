@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3132378915" Type="Event" GUID="{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}" Language="SFX" Hash="{415B0E91-4AA9-A56B-AD00-25BBAF9AF5A1}">
+			<ObjectPath>Play_amb_rural_01</ObjectPath>
+			<ShortName>Play_amb_rural_01</ShortName>
+			<Path>Event/31/Play_amb_rural_01.bnk</Path>
+			<Media>
+				<File Id="654515496" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Ambience\amb_rural\amb_rural_01.wav</ShortName>
+					<Path>Media/65/654515496.wem</Path>
+					<CachePath>SFX/Ambience/amb_rural/amb_rural_01_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3132378915" Name="Play_amb_rural_01" ObjectPath="\Events\Default Work Unit\Play_amb_rural_01" GUID="{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="654515496"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{410AC4FA-0724-3E4A-1B36-94243B0089F5}</FileHash>
+</SoundBanksInfo>

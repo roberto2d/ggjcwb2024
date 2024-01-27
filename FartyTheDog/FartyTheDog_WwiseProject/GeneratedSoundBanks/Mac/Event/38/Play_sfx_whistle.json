@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3860292184",
+    "Type": "Event",
+    "GUID": "{256960CE-1C36-481D-80C0-8F29EE3C5667}",
+    "Language": "SFX",
+    "Hash": "{6469B955-8CD1-F864-04C5-6760338D6B8D}",
+    "ObjectPath": "Play_sfx_whistle",
+    "ShortName": "Play_sfx_whistle",
+    "Path": "Event/38/Play_sfx_whistle.bnk",
+    "Media": [
+     {
+      "Id": "594323199",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_whistle\\sfx_whistle_01.wav",
+      "Path": "Media/59/594323199.wem",
+      "CachePath": "SFX/Enemies/sfx_whistle/sfx_whistle_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3860292184",
+      "Name": "Play_sfx_whistle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_whistle",
+      "GUID": "{256960CE-1C36-481D-80C0-8F29EE3C5667}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.63691664",
+      "DurationMax": "0.63691664",
+      "MediaRefs": [
+       {
+        "Id": "594323199"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D64FBE3F-BE2A-7917-7F4C-F7290DA648B1}"
+ }
+}

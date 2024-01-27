@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3317390367	Play_amb_urban_01			\Default Work Unit\Play_amb_urban_01	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	9006360	amb_urban_01	D:\GGJ\GGJCWB2024\ggjcwb2024\FartyTheDog\FartyTheDog_WwiseProject\.cache\Mac\SFX\Ambience\amb_urban\amb_urban_01_FBC78EF0.wem	9006360.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_urban_01	
+
