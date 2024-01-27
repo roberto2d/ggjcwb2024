@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{325C1BCF-A767-45E0-AB18-8DED47EBE96C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Sine_Wave_Loop" ID="{4511A7B7-0148-46FC-91E6-27D38D726473}">
-					<ChildrenList>
-						<Action Name="" ID="{3A1E2BFA-16F4-4780-BAB8-D98C42EC41C9}" ShortID="201197178">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Sine Wave Loop" ID="{3EC669DD-B238-40F7-BF6C-F54D29A36DC8}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_sfx_fart_attacksweetener" ID="{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}">
 					<ChildrenList>
 						<Action Name="" ID="{973FFD00-5521-433D-BDAC-A43164253585}" ShortID="158664465">
@@ -123,6 +112,149 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sfx_fart_releaseloop_airy" ID="{4F11AD7C-3D76-4191-8101-4298AF97301E}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_amb_rural_01" ID="{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}">
+					<ChildrenList>
+						<Action Name="" ID="{CD9299B6-04CD-4E3E-A784-199F25680DEC}" ShortID="5857567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_rural_01" ID="{7F51DA35-CC15-47E6-A8BE-17AF6D168FB5}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_amb_urban_01" ID="{41E36E71-7F0C-48FD-B69A-00C64BF4B9C9}">
+					<ChildrenList>
+						<Action Name="" ID="{6C842188-CECC-4999-8C64-EF554ADD6606}" ShortID="355658896">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_urban_01" ID="{C883FB97-E17C-4988-9CFE-16D914B61AAE}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_carhorn" ID="{BAF4B02E-C7D2-46C6-82C9-56ADF7F07558}">
+					<ChildrenList>
+						<Action Name="" ID="{E8193513-F50D-418B-912A-E5545408CBD5}" ShortID="191156778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_carhorn" ID="{1EB45CE8-8C1E-48A5-B07F-C49FEFCDC587}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_catmeow" ID="{21E094C6-9F7D-4E6C-9437-416132EB5D5E}">
+					<ChildrenList>
+						<Action Name="" ID="{57B18435-A588-4C90-873F-CD74C890B578}" ShortID="447000715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_catmeow" ID="{19E40C0C-3160-42AC-9D8B-FE81AC65EA15}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_dogbark" ID="{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}">
+					<ChildrenList>
+						<Action Name="" ID="{440C0DC2-4CFA-4ADC-8AD0-BE2EF777FAAC}" ShortID="1046964717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_dogbark" ID="{8969A325-0C2F-442E-B491-B7B5110EC95B}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_dogbreath" ID="{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}">
+					<ChildrenList>
+						<Action Name="" ID="{9A2029EA-38E5-4A3A-A7CC-3DADB6463594}" ShortID="544379799">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_dogbreath" ID="{A761184A-45CE-4AF3-A59A-651945CE8B63}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_doghuff" ID="{EC825BA3-ECF9-45A4-815D-ED4A8A1E041E}">
+					<ChildrenList>
+						<Action Name="" ID="{4F2ABB7A-D3A1-4E4C-9221-04901CB4A0B5}" ShortID="450983113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_doghuff" ID="{AFA21224-693D-4599-A32E-04F54C79B6BF}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_dogyelp" ID="{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}">
+					<ChildrenList>
+						<Action Name="" ID="{85F89D24-3295-4F28-A7FF-71DEA2F8F0D2}" ShortID="95526527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_dogyelp" ID="{06D42984-AE11-403D-917D-ED31ABDA8BE6}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_truckhorn" ID="{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}">
+					<ChildrenList>
+						<Action Name="" ID="{8126D984-B6FA-457D-81C9-2BD3EC69ED7F}" ShortID="413652259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_truckhorn" ID="{1F172CF6-5F42-4CBD-A055-C3130B3430E4}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_vodisgust" ID="{B860D0DC-8E3F-4EFA-983F-D91E459CB540}">
+					<ChildrenList>
+						<Action Name="" ID="{95DBDE4C-8AD8-446C-8C3F-4D63AE9595DA}" ShortID="592980089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_vodisgust" ID="{C11C2FB4-4226-4A9F-A81C-F225A399E71A}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_whistle" ID="{256960CE-1C36-481D-80C0-8F29EE3C5667}">
+					<ChildrenList>
+						<Action Name="" ID="{3EC51EE7-F851-4954-873A-C12E7A4C1BB7}" ShortID="481704011">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_whistle" ID="{BF2BE467-54CD-40DC-9295-53FB1F1C329B}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ui_clicknegative" ID="{F2AD576F-6F50-4E76-84CC-ED6ABE74013F}">
+					<ChildrenList>
+						<Action Name="" ID="{9691518E-EE2C-4AAF-90AC-86FFA526D1B4}" ShortID="437629415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_clicknegative" ID="{5C634AF1-9025-43C9-ABCA-307B0E9DAC6C}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ui_clickpositive" ID="{C89C821B-2852-43DF-BB0B-D4E33839FE22}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B40DF7-FAEA-4731-8141-2479D4CF582B}" ShortID="27411143">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_clickpositive" ID="{CB3961D9-21EC-4C0F-9118-E3C6A5FF22A9}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

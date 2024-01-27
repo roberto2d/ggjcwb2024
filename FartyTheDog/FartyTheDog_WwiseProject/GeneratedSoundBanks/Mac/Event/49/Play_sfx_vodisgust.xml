@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="499695092" Type="Event" GUID="{B860D0DC-8E3F-4EFA-983F-D91E459CB540}" Language="SFX" Hash="{F21A223D-77CF-79A3-9053-387BC43971EC}">
+			<ObjectPath>Play_sfx_vodisgust</ObjectPath>
+			<ShortName>Play_sfx_vodisgust</ShortName>
+			<Path>Event/49/Play_sfx_vodisgust.bnk</Path>
+			<Media>
+				<File Id="163410441" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_vodisgust\sfx_vodisgust_03.wav</ShortName>
+					<Path>Media/16/163410441.wem</Path>
+					<CachePath>SFX/Enemies/sfx_vodisgust/sfx_vodisgust_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="355412818" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_vodisgust\sfx_vodisgust_01.wav</ShortName>
+					<Path>Media/35/355412818.wem</Path>
+					<CachePath>SFX/Enemies/sfx_vodisgust/sfx_vodisgust_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="673802976" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_vodisgust\sfx_vodisgust_02.wav</ShortName>
+					<Path>Media/67/673802976.wem</Path>
+					<CachePath>SFX/Enemies/sfx_vodisgust/sfx_vodisgust_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="499695092" Name="Play_sfx_vodisgust" ObjectPath="\Events\Default Work Unit\Play_sfx_vodisgust" GUID="{B860D0DC-8E3F-4EFA-983F-D91E459CB540}" DurationType="OneShot" DurationMin="0.8457292" DurationMax="1.1012083">
+					<MediaRefs>
+						<MediaRef Id="163410441"/>
+						<MediaRef Id="355412818"/>
+						<MediaRef Id="673802976"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4B3B93EE-061E-06D1-6D64-AC03C4D35935}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4052677944",
+    "Type": "Event",
+    "GUID": "{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}",
+    "Language": "SFX",
+    "Hash": "{92217F1D-35EE-425A-1462-A0B8805A5C8E}",
+    "ObjectPath": "Play_sfx_truckhorn",
+    "ShortName": "Play_sfx_truckhorn",
+    "Path": "Event/40/Play_sfx_truckhorn.bnk",
+    "Media": [
+     {
+      "Id": "710187227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_truckhorn\\sfx_truckhorn_01.wav",
+      "Path": "Media/71/710187227.wem",
+      "CachePath": "SFX/Enemies/sfx_truckhorn/sfx_truckhorn_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4052677944",
+      "Name": "Play_sfx_truckhorn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_truckhorn",
+      "GUID": "{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1642709",
+      "DurationMax": "1.1642709",
+      "MediaRefs": [
+       {
+        "Id": "710187227"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{177AA232-3596-29B5-122C-FD2FE670E770}"
+ }
+}

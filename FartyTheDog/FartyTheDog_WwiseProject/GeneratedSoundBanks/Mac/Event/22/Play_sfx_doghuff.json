@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2289371893",
+    "Type": "Event",
+    "GUID": "{EC825BA3-ECF9-45A4-815D-ED4A8A1E041E}",
+    "Language": "SFX",
+    "Hash": "{1EDA9ED6-3A85-FCA7-9A28-1D263C5866B3}",
+    "ObjectPath": "Play_sfx_doghuff",
+    "ShortName": "Play_sfx_doghuff",
+    "Path": "Event/22/Play_sfx_doghuff.bnk",
+    "Media": [
+     {
+      "Id": "256370422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_doghuff\\sfx_doghuff_01.wav",
+      "Path": "Media/25/256370422.wem",
+      "CachePath": "SFX/Enemies/sfx_doghuff/sfx_doghuff_01_818F3B66.wem"
+     },
+     {
+      "Id": "310803723",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_doghuff\\sfx_doghuff_03.wav",
+      "Path": "Media/31/310803723.wem",
+      "CachePath": "SFX/Enemies/sfx_doghuff/sfx_doghuff_03_818F3B66.wem"
+     },
+     {
+      "Id": "402243866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_doghuff\\sfx_doghuff_02.wav",
+      "Path": "Media/40/402243866.wem",
+      "CachePath": "SFX/Enemies/sfx_doghuff/sfx_doghuff_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2289371893",
+      "Name": "Play_sfx_doghuff",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_doghuff",
+      "GUID": "{EC825BA3-ECF9-45A4-815D-ED4A8A1E041E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7924375",
+      "DurationMax": "0.7924375",
+      "MediaRefs": [
+       {
+        "Id": "256370422"
+       },
+       {
+        "Id": "310803723"
+       },
+       {
+        "Id": "402243866"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7878FE9A-1749-4461-6393-E71C4B86E917}"
+ }
+}

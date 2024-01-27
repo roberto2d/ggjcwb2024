@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="249248366" Type="Event" GUID="{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}" Language="SFX" Hash="{B008E76C-AE6C-B860-1098-B06B335453A9}">
+			<ObjectPath>Play_sfx_dogbark</ObjectPath>
+			<ShortName>Play_sfx_dogbark</ShortName>
+			<Path>Event/24/Play_sfx_dogbark.bnk</Path>
+			<Media>
+				<File Id="103333135" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_03.wav</ShortName>
+					<Path>Media/10/103333135.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="176465052" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_01.wav</ShortName>
+					<Path>Media/17/176465052.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="666179780" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_06.wav</ShortName>
+					<Path>Media/66/666179780.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="775672500" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_07.wav</ShortName>
+					<Path>Media/77/775672500.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="881608808" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_02.wav</ShortName>
+					<Path>Media/88/881608808.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="887772551" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_04.wav</ShortName>
+					<Path>Media/88/887772551.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1016958799" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbark\sfx_dogbark_05.wav</ShortName>
+					<Path>Media/10/1016958799.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbark/sfx_dogbark_05_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="249248366" Name="Play_sfx_dogbark" ObjectPath="\Events\Default Work Unit\Play_sfx_dogbark" GUID="{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}" DurationType="OneShot" DurationMin="0.56504166" DurationMax="0.5967708">
+					<MediaRefs>
+						<MediaRef Id="103333135"/>
+						<MediaRef Id="176465052"/>
+						<MediaRef Id="666179780"/>
+						<MediaRef Id="775672500"/>
+						<MediaRef Id="881608808"/>
+						<MediaRef Id="887772551"/>
+						<MediaRef Id="1016958799"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EC84CE20-C509-2A63-5ECC-A71C6A8D9397}</FileHash>
+</SoundBanksInfo>

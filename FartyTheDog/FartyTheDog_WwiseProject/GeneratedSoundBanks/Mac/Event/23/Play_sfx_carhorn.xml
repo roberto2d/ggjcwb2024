@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="233854575" Type="Event" GUID="{BAF4B02E-C7D2-46C6-82C9-56ADF7F07558}" Language="SFX" Hash="{0C9A67BB-9B0C-1849-8276-221A964ADF72}">
+			<ObjectPath>Play_sfx_carhorn</ObjectPath>
+			<ShortName>Play_sfx_carhorn</ShortName>
+			<Path>Event/23/Play_sfx_carhorn.bnk</Path>
+			<Media>
+				<File Id="12620118" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_carhorn\sfx_carhorn_02.wav</ShortName>
+					<Path>Media/12/12620118.wem</Path>
+					<CachePath>SFX/Enemies/sfx_carhorn/sfx_carhorn_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="214859207" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_carhorn\sfx_carhorn_01.wav</ShortName>
+					<Path>Media/21/214859207.wem</Path>
+					<CachePath>SFX/Enemies/sfx_carhorn/sfx_carhorn_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="428174037" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_carhorn\sfx_carhorn_03.wav</ShortName>
+					<Path>Media/42/428174037.wem</Path>
+					<CachePath>SFX/Enemies/sfx_carhorn/sfx_carhorn_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="233854575" Name="Play_sfx_carhorn" ObjectPath="\Events\Default Work Unit\Play_sfx_carhorn" GUID="{BAF4B02E-C7D2-46C6-82C9-56ADF7F07558}" DurationType="OneShot" DurationMin="0.67775" DurationMax="1.5959584">
+					<MediaRefs>
+						<MediaRef Id="12620118"/>
+						<MediaRef Id="214859207"/>
+						<MediaRef Id="428174037"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6EC9C25E-CACD-822B-A549-0C906A7F11FF}</FileHash>
+</SoundBanksInfo>

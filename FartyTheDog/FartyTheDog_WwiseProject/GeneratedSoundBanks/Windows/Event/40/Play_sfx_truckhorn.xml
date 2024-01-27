@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4052677944" Type="Event" GUID="{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}" Language="SFX" Hash="{92217F1D-35EE-425A-1462-A0B8805A5C8E}">
+			<ObjectPath>Play_sfx_truckhorn</ObjectPath>
+			<ShortName>Play_sfx_truckhorn</ShortName>
+			<Path>Event/40/Play_sfx_truckhorn.bnk</Path>
+			<Media>
+				<File Id="710187227" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_truckhorn\sfx_truckhorn_01.wav</ShortName>
+					<Path>Media/71/710187227.wem</Path>
+					<CachePath>SFX/Enemies/sfx_truckhorn/sfx_truckhorn_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4052677944" Name="Play_sfx_truckhorn" ObjectPath="\Events\Default Work Unit\Play_sfx_truckhorn" GUID="{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}" DurationType="OneShot" DurationMin="1.1642709" DurationMax="1.1642709">
+					<MediaRefs>
+						<MediaRef Id="710187227"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1A246A60-C727-E918-4D37-1E24D6FFB6E8}</FileHash>
+</SoundBanksInfo>

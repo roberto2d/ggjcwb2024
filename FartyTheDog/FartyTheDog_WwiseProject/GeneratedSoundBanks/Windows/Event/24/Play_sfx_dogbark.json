@@ -1,0 +1,120 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "249248366",
+    "Type": "Event",
+    "GUID": "{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}",
+    "Language": "SFX",
+    "Hash": "{B008E76C-AE6C-B860-1098-B06B335453A9}",
+    "ObjectPath": "Play_sfx_dogbark",
+    "ShortName": "Play_sfx_dogbark",
+    "Path": "Event/24/Play_sfx_dogbark.bnk",
+    "Media": [
+     {
+      "Id": "103333135",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_03.wav",
+      "Path": "Media/10/103333135.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_03_818F3B66.wem"
+     },
+     {
+      "Id": "176465052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_01.wav",
+      "Path": "Media/17/176465052.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_01_818F3B66.wem"
+     },
+     {
+      "Id": "666179780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_06.wav",
+      "Path": "Media/66/666179780.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_06_818F3B66.wem"
+     },
+     {
+      "Id": "775672500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_07.wav",
+      "Path": "Media/77/775672500.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_07_818F3B66.wem"
+     },
+     {
+      "Id": "881608808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_02.wav",
+      "Path": "Media/88/881608808.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_02_818F3B66.wem"
+     },
+     {
+      "Id": "887772551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_04.wav",
+      "Path": "Media/88/887772551.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_04_818F3B66.wem"
+     },
+     {
+      "Id": "1016958799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbark\\sfx_dogbark_05.wav",
+      "Path": "Media/10/1016958799.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbark/sfx_dogbark_05_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "249248366",
+      "Name": "Play_sfx_dogbark",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_dogbark",
+      "GUID": "{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.56504166",
+      "DurationMax": "0.5967708",
+      "MediaRefs": [
+       {
+        "Id": "103333135"
+       },
+       {
+        "Id": "176465052"
+       },
+       {
+        "Id": "666179780"
+       },
+       {
+        "Id": "775672500"
+       },
+       {
+        "Id": "881608808"
+       },
+       {
+        "Id": "887772551"
+       },
+       {
+        "Id": "1016958799"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9A1A7C35-A136-374F-CF8A-8C14A8462A3F}"
+ }
+}

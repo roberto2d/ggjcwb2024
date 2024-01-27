@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "795038914",
+    "Type": "Event",
+    "GUID": "{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}",
+    "Language": "SFX",
+    "Hash": "{4D6AEDBA-2E84-B465-47AE-5FB1DB76C0CC}",
+    "ObjectPath": "Play_sfx_dogyelp",
+    "ShortName": "Play_sfx_dogyelp",
+    "Path": "Event/79/Play_sfx_dogyelp.bnk",
+    "Media": [
+     {
+      "Id": "40796041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogyelp\\sfx_dogyelp_01.wav",
+      "Path": "Media/40/40796041.wem",
+      "CachePath": "SFX/Enemies/sfx_dogyelp/sfx_dogyelp_01_818F3B66.wem"
+     },
+     {
+      "Id": "91605628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogyelp\\sfx_dogyelp_03.wav",
+      "Path": "Media/91/91605628.wem",
+      "CachePath": "SFX/Enemies/sfx_dogyelp/sfx_dogyelp_03_818F3B66.wem"
+     },
+     {
+      "Id": "683083684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogyelp\\sfx_dogyelp_02.wav",
+      "Path": "Media/68/683083684.wem",
+      "CachePath": "SFX/Enemies/sfx_dogyelp/sfx_dogyelp_02_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "795038914",
+      "Name": "Play_sfx_dogyelp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_dogyelp",
+      "GUID": "{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1133333",
+      "DurationMax": "1.1133333",
+      "MediaRefs": [
+       {
+        "Id": "40796041"
+       },
+       {
+        "Id": "91605628"
+       },
+       {
+        "Id": "683083684"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3BF208EE-070E-8B71-4F58-5BDCE2DDBC5A}"
+ }
+}

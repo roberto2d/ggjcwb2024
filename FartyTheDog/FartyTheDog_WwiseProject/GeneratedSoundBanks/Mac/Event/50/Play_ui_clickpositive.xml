@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="508262856" Type="Event" GUID="{C89C821B-2852-43DF-BB0B-D4E33839FE22}" Language="SFX" Hash="{036BC2F0-B6A4-5A7A-78F8-35990DC58DA1}">
+			<ObjectPath>Play_ui_clickpositive</ObjectPath>
+			<ShortName>Play_ui_clickpositive</ShortName>
+			<Path>Event/50/Play_ui_clickpositive.bnk</Path>
+			<Media>
+				<File Id="206003962" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clickpositive\ui_clickpositive_01.wav</ShortName>
+					<Path>Media/20/206003962.wem</Path>
+					<CachePath>SFX/UI/ui_clickpositive/ui_clickpositive_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="425146788" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clickpositive\ui_clickpositive_02.wav</ShortName>
+					<Path>Media/42/425146788.wem</Path>
+					<CachePath>SFX/UI/ui_clickpositive/ui_clickpositive_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="517846302" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clickpositive\ui_clickpositive_03.wav</ShortName>
+					<Path>Media/51/517846302.wem</Path>
+					<CachePath>SFX/UI/ui_clickpositive/ui_clickpositive_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="508262856" Name="Play_ui_clickpositive" ObjectPath="\Events\Default Work Unit\Play_ui_clickpositive" GUID="{C89C821B-2852-43DF-BB0B-D4E33839FE22}" DurationType="OneShot" DurationMin="0.32983333" DurationMax="0.5222292">
+					<MediaRefs>
+						<MediaRef Id="206003962"/>
+						<MediaRef Id="425146788"/>
+						<MediaRef Id="517846302"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3FC10D78-79AD-16DD-C4C4-D56EFC5DC564}</FileHash>
+</SoundBanksInfo>

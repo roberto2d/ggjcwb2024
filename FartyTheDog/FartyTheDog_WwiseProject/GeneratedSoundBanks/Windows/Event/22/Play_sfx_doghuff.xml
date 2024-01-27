@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2289371893" Type="Event" GUID="{EC825BA3-ECF9-45A4-815D-ED4A8A1E041E}" Language="SFX" Hash="{1EDA9ED6-3A85-FCA7-9A28-1D263C5866B3}">
+			<ObjectPath>Play_sfx_doghuff</ObjectPath>
+			<ShortName>Play_sfx_doghuff</ShortName>
+			<Path>Event/22/Play_sfx_doghuff.bnk</Path>
+			<Media>
+				<File Id="256370422" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_doghuff\sfx_doghuff_01.wav</ShortName>
+					<Path>Media/25/256370422.wem</Path>
+					<CachePath>SFX/Enemies/sfx_doghuff/sfx_doghuff_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="310803723" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_doghuff\sfx_doghuff_03.wav</ShortName>
+					<Path>Media/31/310803723.wem</Path>
+					<CachePath>SFX/Enemies/sfx_doghuff/sfx_doghuff_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="402243866" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_doghuff\sfx_doghuff_02.wav</ShortName>
+					<Path>Media/40/402243866.wem</Path>
+					<CachePath>SFX/Enemies/sfx_doghuff/sfx_doghuff_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2289371893" Name="Play_sfx_doghuff" ObjectPath="\Events\Default Work Unit\Play_sfx_doghuff" GUID="{EC825BA3-ECF9-45A4-815D-ED4A8A1E041E}" DurationType="OneShot" DurationMin="0.7924375" DurationMax="0.7924375">
+					<MediaRefs>
+						<MediaRef Id="256370422"/>
+						<MediaRef Id="310803723"/>
+						<MediaRef Id="402243866"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FE822686-94E6-C41F-FC92-D954177F1E05}</FileHash>
+</SoundBanksInfo>

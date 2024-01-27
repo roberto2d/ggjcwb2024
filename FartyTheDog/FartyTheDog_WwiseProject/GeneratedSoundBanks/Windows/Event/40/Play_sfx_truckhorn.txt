@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4052677944	Play_sfx_truckhorn			\Default Work Unit\Play_sfx_truckhorn	
+
