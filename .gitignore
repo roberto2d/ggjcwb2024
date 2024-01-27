@@ -72,3 +72,23 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#WWISE related stuff
+
+#ignore everything inside the cache directory
+FartyTheDog/FartyTheDog_WwiseProject/.cache/**
+
+#ignore any akd, prof, wsettings and validationcache files
+
+*.akd
+*.prof
+*.wsettings
+*.validationcache
+
+#Ignore Unreal engine saved folder and all in it
+FartyTheDog/Saved/**
+FartyTheDog/Saved/Autosaves/PackageRestoreData.json
+FartyTheDog/Saved/AutoScreenshot.png
+FartyTheDog/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+FartyTheDog/Saved/Config/WindowsEditor/Engine.ini
+FartyTheDog/Saved/Logs/FartyTheDog.log
