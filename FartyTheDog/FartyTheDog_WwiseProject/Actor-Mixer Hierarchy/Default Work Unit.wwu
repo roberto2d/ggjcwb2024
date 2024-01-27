@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Test Sounds" ID="{D40DFFFC-EFB2-4FCD-BA60-1351EE65DD0C}" ShortID="518369975">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sine Wave Loop" ID="{3EC669DD-B238-40F7-BF6C-F54D29A36DC8}" ShortID="746694314">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Sine" ID="{5BD6252A-8EF6-4064-B65D-C0A48827853D}" ShortID="611949990" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sine" ID="{5BD6252A-8EF6-4064-B65D-C0A48827853D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

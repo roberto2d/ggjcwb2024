@@ -26,7 +26,10 @@
 						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMainSoundBank" Type="bool" Value="False"/>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE2NTkwIiBtYXNrPSJRQldWMjY3NSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjQtMDUtMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI0LTA1LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI0LTA1LTAxIiAgLz48bGljZW5zZSBpZD0iMjUiIG5hbWU9IkFsbCBXd2lzZSBQbHVnLUlucyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjQtMDUtMDEiICAvPjwvcHJvamVjdD4=|Uf55w61gWoQ8ktlUlbfFEadTmgyLEbl2FWZ0alm+j6NwEcT5cmnbNUeepmCmOwmtsqS/3qpErKIGNg21TYUjta0eucrNrN0lDEIMee13IltMZmpGnbCio9tGk8ZD3ow6NYWg6758BcncIYQtJ80zoIr+gVaR0iS6xNAA8DWHyYu/fLZ3cNqPQn+977xiSeYi8xeDsCmZkDEvsG7opKiHumyocGQqXMNT+8le8XtzOTcHpbnygtCRNktcuyGwLSSFglDD4OO0fb3caLRO5nM8VCdPgyvvtSPZ0wQ1jzgRqLtN02w+LIfyMzXQ4fMa4yXIanMOlGJenhGemj5H9MrLUw=="/>
+				<Property Name="MediaAutoBankSubFolders" Type="bool" Value="True"/>
+				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
