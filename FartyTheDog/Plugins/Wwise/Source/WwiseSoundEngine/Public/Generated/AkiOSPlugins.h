@@ -17,4 +17,5 @@ Copyright (c) 2023 Audiokinetic Inc.
 
 #if PLATFORM_IOS
 #include <AK/Plugin/AkSineSourceFactory.h>
+#include <AK/Plugin/AkMeterFXFactory.h>
 #endif
