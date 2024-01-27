@@ -238,6 +238,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ui_clicknegative" ID="{F2AD576F-6F50-4E76-84CC-ED6ABE74013F}">
+					<ChildrenList>
+						<Action Name="" ID="{9691518E-EE2C-4AAF-90AC-86FFA526D1B4}" ShortID="437629415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_clicknegative" ID="{5C634AF1-9025-43C9-ABCA-307B0E9DAC6C}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ui_clickpositive" ID="{C89C821B-2852-43DF-BB0B-D4E33839FE22}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B40DF7-FAEA-4731-8141-2479D4CF582B}" ShortID="27411143">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_clickpositive" ID="{CB3961D9-21EC-4C0F-9118-E3C6A5FF22A9}" WorkUnitID="{8294F8F0-6021-445A-9DFA-4F88F2CBE4EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1422,6 +1422,174 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="UI" ID="{440E0942-49B1-47B1-9D32-DB1134CB6CAF}" ShortID="773982945">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ui_clicknegative" ID="{5C634AF1-9025-43C9-ABCA-307B0E9DAC6C}" ShortID="551042538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ui_clicknegative_01" ID="{60E4EDCA-EF4D-4648-9A78-BBAACAF66543}" ShortID="327890384">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clicknegative_01" ID="{7BDD0909-6C80-444B-BEEB-AFDD92A937D6}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clicknegative\ui_clicknegative_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854462057"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clicknegative_01" ID="{7BDD0909-6C80-444B-BEEB-AFDD92A937D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_clicknegative_02" ID="{E8813ACD-C494-49E6-8D58-93A9B6C4F37B}" ShortID="288947234">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clicknegative_02" ID="{7BE6385E-9214-425C-8DF9-7D32B5878FDD}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clicknegative\ui_clicknegative_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="20933445"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clicknegative_02" ID="{7BE6385E-9214-425C-8DF9-7D32B5878FDD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_clicknegative_03" ID="{A8275A03-726C-4E73-87BF-14C1F3C7B643}" ShortID="110215551">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clicknegative_03" ID="{1A0E21C8-7FFD-4BB7-8EAC-FD62BE51CEE2}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clicknegative\ui_clicknegative_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="981328742"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clicknegative_03" ID="{1A0E21C8-7FFD-4BB7-8EAC-FD62BE51CEE2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ui_clickpositive" ID="{CB3961D9-21EC-4C0F-9118-E3C6A5FF22A9}" ShortID="637001685">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ui_clickpositive_01" ID="{A58D2B74-8E3F-4E25-9219-CC2761C49042}" ShortID="783748187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clickpositive_01" ID="{6F5372D9-49E4-45AB-B59D-5D3B8FC79039}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clickpositive\ui_clickpositive_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="206003962"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clickpositive_01" ID="{6F5372D9-49E4-45AB-B59D-5D3B8FC79039}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_clickpositive_02" ID="{3FAE2A87-E6C7-4E4A-A4F9-7E61EBDAA752}" ShortID="50348977">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clickpositive_02" ID="{73EBC8A9-4912-45B6-8A29-3C1D61A472F8}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clickpositive\ui_clickpositive_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="425146788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clickpositive_02" ID="{73EBC8A9-4912-45B6-8A29-3C1D61A472F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_clickpositive_03" ID="{9F9E5141-A92A-4C71-8DE6-BDA13C7A7BF9}" ShortID="421990070">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3239C5B5-5273-46A8-A7C1-B1C6D3015CDB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D22958B1-6CDE-49EA-BD77-48630FF75E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_clickpositive_03" ID="{971734A2-CDA1-4965-872F-8159ADB08D2E}">
+											<Language>SFX</Language>
+											<AudioFile>UI\ui_clickpositive\ui_clickpositive_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="517846302"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_clickpositive_03" ID="{971734A2-CDA1-4965-872F-8159ADB08D2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "508262856",
+    "Type": "Event",
+    "GUID": "{C89C821B-2852-43DF-BB0B-D4E33839FE22}",
+    "Language": "SFX",
+    "Hash": "{036BC2F0-B6A4-5A7A-78F8-35990DC58DA1}",
+    "ObjectPath": "Play_ui_clickpositive",
+    "ShortName": "Play_ui_clickpositive",
+    "Path": "Event/50/Play_ui_clickpositive.bnk",
+    "Media": [
+     {
+      "Id": "206003962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\ui_clickpositive\\ui_clickpositive_01.wav",
+      "Path": "Media/20/206003962.wem",
+      "CachePath": "SFX/UI/ui_clickpositive/ui_clickpositive_01_818F3B66.wem"
+     },
+     {
+      "Id": "425146788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\ui_clickpositive\\ui_clickpositive_02.wav",
+      "Path": "Media/42/425146788.wem",
+      "CachePath": "SFX/UI/ui_clickpositive/ui_clickpositive_02_818F3B66.wem"
+     },
+     {
+      "Id": "517846302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI\\ui_clickpositive\\ui_clickpositive_03.wav",
+      "Path": "Media/51/517846302.wem",
+      "CachePath": "SFX/UI/ui_clickpositive/ui_clickpositive_03_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "508262856",
+      "Name": "Play_ui_clickpositive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ui_clickpositive",
+      "GUID": "{C89C821B-2852-43DF-BB0B-D4E33839FE22}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32983333",
+      "DurationMax": "0.5222292",
+      "MediaRefs": [
+       {
+        "Id": "206003962"
+       },
+       {
+        "Id": "425146788"
+       },
+       {
+        "Id": "517846302"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F99BC687-32D7-397E-27A7-AEB945402E28}"
+ }
+}

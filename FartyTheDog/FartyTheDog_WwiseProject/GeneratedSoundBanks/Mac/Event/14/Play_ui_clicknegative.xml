@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1495321248" Type="Event" GUID="{F2AD576F-6F50-4E76-84CC-ED6ABE74013F}" Language="SFX" Hash="{87D0CA4F-B941-6216-3F17-12699CD47083}">
+			<ObjectPath>Play_ui_clicknegative</ObjectPath>
+			<ShortName>Play_ui_clicknegative</ShortName>
+			<Path>Event/14/Play_ui_clicknegative.bnk</Path>
+			<Media>
+				<File Id="20933445" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clicknegative\ui_clicknegative_02.wav</ShortName>
+					<Path>Media/20/20933445.wem</Path>
+					<CachePath>SFX/UI/ui_clicknegative/ui_clicknegative_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="854462057" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clicknegative\ui_clicknegative_01.wav</ShortName>
+					<Path>Media/85/854462057.wem</Path>
+					<CachePath>SFX/UI/ui_clicknegative/ui_clicknegative_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="981328742" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UI\ui_clicknegative\ui_clicknegative_03.wav</ShortName>
+					<Path>Media/98/981328742.wem</Path>
+					<CachePath>SFX/UI/ui_clicknegative/ui_clicknegative_03_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1495321248" Name="Play_ui_clicknegative" ObjectPath="\Events\Default Work Unit\Play_ui_clicknegative" GUID="{F2AD576F-6F50-4E76-84CC-ED6ABE74013F}" DurationType="OneShot" DurationMin="0.177375" DurationMax="0.2934375">
+					<MediaRefs>
+						<MediaRef Id="20933445"/>
+						<MediaRef Id="854462057"/>
+						<MediaRef Id="981328742"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5932BC9F-3DED-3DC3-E13E-D0A727551319}</FileHash>
+</SoundBanksInfo>
