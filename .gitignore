@@ -102,3 +102,6 @@ FartyTheDog/Plugins/Wwise/*.akpk
 FartyTheDog/Plugins/Wwise/*.prof
 FartyTheDog/Plugins/Wwise/*.validationcache
 FartyTheDog/Plugins/Wwise/*.wsettings
+FartyTheDog/Intermediate/CachedAssetRegistry_0.bin
+FartyTheDog/Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AkiOSPlugins.h
+FartyTheDog/Plugins/Wwise/Source/WwiseSoundEngine/Public/Generated/AktvOSPlugins.h
