@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3317390367" Type="Event" GUID="{41E36E71-7F0C-48FD-B69A-00C64BF4B9C9}" Language="SFX" Hash="{B762A40D-89A3-951E-D010-731D66A27740}">
+			<ObjectPath>Play_amb_urban_01</ObjectPath>
+			<ShortName>Play_amb_urban_01</ShortName>
+			<Path>Event/33/Play_amb_urban_01.bnk</Path>
+			<Media>
+				<File Id="9006360" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Ambience\amb_urban\amb_urban_01.wav</ShortName>
+					<Path>Media/90/9006360.wem</Path>
+					<CachePath>SFX/Ambience/amb_urban/amb_urban_01_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3317390367" Name="Play_amb_urban_01" ObjectPath="\Events\Default Work Unit\Play_amb_urban_01" GUID="{41E36E71-7F0C-48FD-B69A-00C64BF4B9C9}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="9006360"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DE663353-0002-813F-F3B3-53B9451859BC}</FileHash>
+</SoundBanksInfo>

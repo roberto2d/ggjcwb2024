@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	795038914	Play_sfx_dogyelp			\Default Work Unit\Play_sfx_dogyelp	
+

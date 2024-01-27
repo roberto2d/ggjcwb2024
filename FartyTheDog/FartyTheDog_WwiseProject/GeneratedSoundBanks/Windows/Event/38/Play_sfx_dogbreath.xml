@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="384916534" Type="Event" GUID="{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}" Language="SFX" Hash="{3EF75F65-199A-6929-DF5E-F4E5B12C52BB}">
+			<ObjectPath>Play_sfx_dogbreath</ObjectPath>
+			<ShortName>Play_sfx_dogbreath</ShortName>
+			<Path>Event/38/Play_sfx_dogbreath.bnk</Path>
+			<Media>
+				<File Id="10946476" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogbreath\sfx_dogbreath_01.wav</ShortName>
+					<Path>Media/10/10946476.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogbreath/sfx_dogbreath_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="384916534" Name="Play_sfx_dogbreath" ObjectPath="\Events\Default Work Unit\Play_sfx_dogbreath" GUID="{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}" DurationType="OneShot" DurationMin="2.5994167" DurationMax="2.5994167">
+					<MediaRefs>
+						<MediaRef Id="10946476"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{53F245F2-F03F-B351-391D-2A89BBFB2D95}</FileHash>
+</SoundBanksInfo>

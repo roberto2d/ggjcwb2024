@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="795038914" Type="Event" GUID="{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}" Language="SFX" Hash="{4D6AEDBA-2E84-B465-47AE-5FB1DB76C0CC}">
+			<ObjectPath>Play_sfx_dogyelp</ObjectPath>
+			<ShortName>Play_sfx_dogyelp</ShortName>
+			<Path>Event/79/Play_sfx_dogyelp.bnk</Path>
+			<Media>
+				<File Id="40796041" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogyelp\sfx_dogyelp_01.wav</ShortName>
+					<Path>Media/40/40796041.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogyelp/sfx_dogyelp_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="91605628" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogyelp\sfx_dogyelp_03.wav</ShortName>
+					<Path>Media/91/91605628.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogyelp/sfx_dogyelp_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="683083684" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Enemies\sfx_dogyelp\sfx_dogyelp_02.wav</ShortName>
+					<Path>Media/68/683083684.wem</Path>
+					<CachePath>SFX/Enemies/sfx_dogyelp/sfx_dogyelp_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="795038914" Name="Play_sfx_dogyelp" ObjectPath="\Events\Default Work Unit\Play_sfx_dogyelp" GUID="{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}" DurationType="OneShot" DurationMin="1.1133333" DurationMax="1.1133333">
+					<MediaRefs>
+						<MediaRef Id="40796041"/>
+						<MediaRef Id="91605628"/>
+						<MediaRef Id="683083684"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{899CA84E-6845-62EB-B495-22BCE453D054}</FileHash>
+</SoundBanksInfo>

@@ -4,13 +4,6 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
-    "LibName": "Wwise Sine",
-    "LibId": "6553602",
-    "Type": "Source",
-    "DLL": "AkSineTone",
-    "StaticLib": "AkSineSource"
-   },
-   {
     "LibName": "Wwise Meter",
     "LibId": "8454147",
     "Type": "Effect",
@@ -28,6 +21,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{8B1B3DA7-BB52-9AA4-5A2E-FCA392D2E1EB}"
+  "FileHash": "{A542993D-8D47-0DA7-57B1-DB2C5FCECEFA}"
  }
 }

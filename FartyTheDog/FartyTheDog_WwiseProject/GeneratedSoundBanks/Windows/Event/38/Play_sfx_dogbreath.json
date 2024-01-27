@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "384916534",
+    "Type": "Event",
+    "GUID": "{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}",
+    "Language": "SFX",
+    "Hash": "{3EF75F65-199A-6929-DF5E-F4E5B12C52BB}",
+    "ObjectPath": "Play_sfx_dogbreath",
+    "ShortName": "Play_sfx_dogbreath",
+    "Path": "Event/38/Play_sfx_dogbreath.bnk",
+    "Media": [
+     {
+      "Id": "10946476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Enemies\\sfx_dogbreath\\sfx_dogbreath_01.wav",
+      "Path": "Media/10/10946476.wem",
+      "CachePath": "SFX/Enemies/sfx_dogbreath/sfx_dogbreath_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "384916534",
+      "Name": "Play_sfx_dogbreath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sfx_dogbreath",
+      "GUID": "{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5994167",
+      "DurationMax": "2.5994167",
+      "MediaRefs": [
+       {
+        "Id": "10946476"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1C1A17F1-A1D3-65EB-FA87-D882D1560958}"
+ }
+}

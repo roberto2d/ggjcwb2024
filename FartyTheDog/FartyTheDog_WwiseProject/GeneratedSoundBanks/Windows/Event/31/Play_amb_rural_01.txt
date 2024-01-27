@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3132378915	Play_amb_rural_01			\Default Work Unit\Play_amb_rural_01	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	654515496	amb_rural_01	D:\GGJ\GGJCWB2024\ggjcwb2024\FartyTheDog\FartyTheDog_WwiseProject\.cache\Windows\SFX\Ambience\amb_rural\amb_rural_01_FBC78EF0.wem	654515496.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\amb_rural_01	
+
