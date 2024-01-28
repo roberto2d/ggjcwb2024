@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{8E21ACF2-199E-2E57-9042-BC1A122B30B9}">
+		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{2FB0C8A4-333C-C598-93B1-5CF8FF6DE57F}">
 			<ObjectPath>Play_OzzyTheFartingDog</ObjectPath>
 			<ShortName>Play_OzzyTheFartingDog</ShortName>
 			<Path>Event/33/Play_OzzyTheFartingDog.bnk</Path>
@@ -76,5 +76,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B17DC990-A75A-AC8D-6E0D-855555CCBDAC}</FileHash>
+	<FileHash>{8DF5B3FF-AA44-4EFE-8693-9A109C12BE65}</FileHash>
 </SoundBanksInfo>

@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{325C1BCF-A767-45E0-AB18-8DED47EBE96C}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_sfx_fart_attacksweetener" ID="{4E7AB563-9E0F-4D45-9094-5AB9EE284C99}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{973FFD00-5521-433D-BDAC-A43164253585}" ShortID="158664465">
 							<ReferenceList>
@@ -15,6 +19,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_fart_releaseloop_airy" ID="{F34771FC-DF78-4860-9812-313306F9D469}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{A412B4FF-D2CB-4AAE-9D2E-B215E97F9D02}" ShortID="532526801">
 							<ReferenceList>
@@ -26,6 +34,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_fartreleasesweetener" ID="{7263F35D-14DC-410D-A5E8-A78F8AA804E2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{AE1A4D53-49A2-450F-9515-EF0397D08EA7}" ShortID="516593057">
 							<ReferenceList>
@@ -37,6 +49,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_fartshortburst" ID="{356ABB0E-A859-4E3E-973B-7A4D7D5AE143}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{2216B49F-3909-4E88-9346-669ED00D60BD}" ShortID="705461996">
 							<ReferenceList>
@@ -48,6 +64,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_AttackFart" ID="{B2B8C5DA-5933-4172-83E8-13DCCBCE45A6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{6BFB4A41-5CFE-4B13-AB6D-F2422829DFA2}" ShortID="907895561">
 							<ReferenceList>
@@ -66,6 +86,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_ReleaseFart" ID="{3791BE49-5AAA-4CFA-A4BD-CED09EA4DB52}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D9300E70-07B6-428D-9AF4-2950C9B04F28}" ShortID="434161942">
 							<ReferenceList>
@@ -91,6 +115,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_OzzyTheFartingDog" ID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C2033F72-DEB0-4162-B977-B9FAA0455F30}" ShortID="865963478">
 							<ReferenceList>
@@ -102,6 +130,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_ReleaseFart" ID="{F76F62B1-F4DF-4207-ABE0-AAA91803638A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4228087F-3EA7-4A0A-A6A5-D10B70CCF9AF}" ShortID="990664005">
 							<PropertyList>
@@ -118,6 +150,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_amb_rural_01" ID="{C0D0661A-AE26-476C-82B2-5DC0E7ACD6A6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{CD9299B6-04CD-4E3E-A784-199F25680DEC}" ShortID="5857567">
 							<ReferenceList>
@@ -129,6 +165,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_amb_urban_01" ID="{41E36E71-7F0C-48FD-B69A-00C64BF4B9C9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{6C842188-CECC-4999-8C64-EF554ADD6606}" ShortID="355658896">
 							<ReferenceList>
@@ -140,6 +180,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_carhorn" ID="{BAF4B02E-C7D2-46C6-82C9-56ADF7F07558}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{E8193513-F50D-418B-912A-E5545408CBD5}" ShortID="191156778">
 							<ReferenceList>
@@ -151,6 +195,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_catmeow" ID="{21E094C6-9F7D-4E6C-9437-416132EB5D5E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{57B18435-A588-4C90-873F-CD74C890B578}" ShortID="447000715">
 							<ReferenceList>
@@ -162,6 +210,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_dogbark" ID="{B27FE573-E8BA-4F06-B51E-DD02CFB6DF47}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{440C0DC2-4CFA-4ADC-8AD0-BE2EF777FAAC}" ShortID="1046964717">
 							<ReferenceList>
@@ -173,6 +225,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_dogbreath" ID="{8CD6DBF8-F4DD-4CCE-92ED-9C9F27903517}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{9A2029EA-38E5-4A3A-A7CC-3DADB6463594}" ShortID="544379799">
 							<ReferenceList>
@@ -195,6 +251,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_dogyelp" ID="{57ACEEEB-4872-4A77-8CA0-03CDEB8E0C7D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{85F89D24-3295-4F28-A7FF-71DEA2F8F0D2}" ShortID="95526527">
 							<ReferenceList>
@@ -206,6 +266,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_truckhorn" ID="{9BF0FFC6-E45E-4B53-97BC-BFE7A4142C17}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8126D984-B6FA-457D-81C9-2BD3EC69ED7F}" ShortID="413652259">
 							<ReferenceList>
@@ -217,6 +281,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_vodisgust" ID="{B860D0DC-8E3F-4EFA-983F-D91E459CB540}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{95DBDE4C-8AD8-446C-8C3F-4D63AE9595DA}" ShortID="592980089">
 							<ReferenceList>
@@ -228,6 +296,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_whistle" ID="{256960CE-1C36-481D-80C0-8F29EE3C5667}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{3EC51EE7-F851-4954-873A-C12E7A4C1BB7}" ShortID="481704011">
 							<ReferenceList>
@@ -239,6 +311,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_ui_clicknegative" ID="{F2AD576F-6F50-4E76-84CC-ED6ABE74013F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{9691518E-EE2C-4AAF-90AC-86FFA526D1B4}" ShortID="437629415">
 							<ReferenceList>
@@ -250,6 +326,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_ui_clickpositive" ID="{C89C821B-2852-43DF-BB0B-D4E33839FE22}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{D1B40DF7-FAEA-4731-8141-2479D4CF582B}" ShortID="27411143">
 							<ReferenceList>
@@ -261,6 +341,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_sfx_doghowl_01" ID="{0273644A-B1F2-4BBB-990B-184B03170CB3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{3BD749A9-DA50-4745-96D4-985C6E6B3D7D}" ShortID="919763736">
 							<ReferenceList>

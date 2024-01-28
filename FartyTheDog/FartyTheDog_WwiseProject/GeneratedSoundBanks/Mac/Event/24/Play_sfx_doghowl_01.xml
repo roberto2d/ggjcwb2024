@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2446348440" Type="Event" GUID="{0273644A-B1F2-4BBB-990B-184B03170CB3}" Language="SFX" Hash="{05F4DB3B-02EA-33BF-8C04-19A4456EB2C8}">
+		<SoundBank Id="2446348440" Type="Event" GUID="{0273644A-B1F2-4BBB-990B-184B03170CB3}" Language="SFX" Hash="{C10A8397-27EE-DEF7-7EB5-49D09E6701DC}">
 			<ObjectPath>Play_sfx_doghowl_01</ObjectPath>
 			<ShortName>Play_sfx_doghowl_01</ShortName>
 			<Path>Event/24/Play_sfx_doghowl_01.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AEA5B64B-ED5A-84DC-62D7-D4E041489E8C}</FileHash>
+	<FileHash>{A8EBA51C-8724-328D-D9B5-EC9093A15BE7}</FileHash>
 </SoundBanksInfo>

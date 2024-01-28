@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2446348440" Type="Event" GUID="{0273644A-B1F2-4BBB-990B-184B03170CB3}" Language="SFX" Hash="{05F4DB3B-02EA-33BF-8C04-19A4456EB2C8}">
+		<SoundBank Id="2446348440" Type="Event" GUID="{0273644A-B1F2-4BBB-990B-184B03170CB3}" Language="SFX" Hash="{C10A8397-27EE-DEF7-7EB5-49D09E6701DC}">
 			<ObjectPath>Play_sfx_doghowl_01</ObjectPath>
 			<ShortName>Play_sfx_doghowl_01</ShortName>
 			<Path>Event/24/Play_sfx_doghowl_01.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{545148BA-B2E6-9E3D-D6C9-C3633D7D1430}</FileHash>
+	<FileHash>{C0DD3CD3-DE9B-FF01-C378-59000AD9C138}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0273644A-B1F2-4BBB-990B-184B03170CB3}",
     "Language": "SFX",
-    "Hash": "{05F4DB3B-02EA-33BF-8C04-19A4456EB2C8}",
+    "Hash": "{C10A8397-27EE-DEF7-7EB5-49D09E6701DC}",
     "ObjectPath": "Play_sfx_doghowl_01",
     "ShortName": "Play_sfx_doghowl_01",
     "Path": "Event/24/Play_sfx_doghowl_01.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{A4C02F19-76A0-DB4B-7503-0F7DFC5D3D96}"
+  "FileHash": "{CCBB0890-A289-4518-D165-8C0343F9468F}"
  }
 }
