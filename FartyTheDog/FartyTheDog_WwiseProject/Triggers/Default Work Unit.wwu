@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D2B35922-F8FE-4206-9B8C-432872E89CB8}" SchemaVersion="119">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{D2B35922-F8FE-4206-9B8C-432872E89CB8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D2B35922-F8FE-4206-9B8C-432872E89CB8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="OzzyDies" ID="{5BB107AA-67F4-4BFB-A9C1-487FF7D56366}"/>
+				<Trigger Name="OzzyPowerUp" ID="{CBB689FC-7390-4AD9-86D5-C4A1A53815E2}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

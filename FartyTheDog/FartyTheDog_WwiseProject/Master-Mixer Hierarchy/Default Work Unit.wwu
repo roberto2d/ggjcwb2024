@@ -78,7 +78,84 @@
 								</Bus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="MX" ID="{42158A75-1D2E-469F-A1BE-3AD55109B3BB}"/>
+						<Bus Name="MX" ID="{42158A75-1D2E-469F-A1BE-3AD55109B3BB}">
+							<ChildrenList>
+								<Bus Name="MainCues" ID="{E709E0D0-4C85-44E6-8150-70EC722EADB5}">
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{946A680B-7726-4A22-80C0-3D2FD7DDBCC6}" ShortID="971783796">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_StingerVolume" ID="{F7126961-E493-4BFE-9593-CF43D15D6486}" WorkUnitID="{FFEF69AF-7DE6-4E32-BA26-DDF41B33D016}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{520A4FB3-30CC-405C-A9BE-C08CC2840E36}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-50</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="Stingers" ID="{DF6DC042-CD62-4919-8EC5-1E8562902B80}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{2439D0F6-3DBA-44F7-A533-346C0352376D}" ShortID="935831886">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{44206448-A4E6-460B-905C-A96D401307FA}" ShortID="925026401" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">																		<PluginData>
+	<GameParameter Name="RTPC_StingerVolume" ID="{F7126961-E493-4BFE-9593-CF43D15D6486}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="MainCues" ID="{E709E0D0-4C85-44E6-8150-70EC722EADB5}"/>
+											<DuckingParam>
+												<Volume>-200</Volume>
+												<FadeInTime>0.300000011920929</FadeInTime>
+												<FadeOutTime>0.100000001490116</FadeOutTime>
+												<FadeCurve>FadeLog2</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

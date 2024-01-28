@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3F7D96AF-3C71-4212-962E-BFED7DD6C789}",
     "Language": "SFX",
-    "Hash": "{813589B9-181A-742F-9777-EB897F1CF275}",
+    "Hash": "{8E21ACF2-199E-2E57-9042-BC1A122B30B9}",
     "ObjectPath": "Play_OzzyTheFartingDog",
     "ShortName": "Play_OzzyTheFartingDog",
     "Path": "Event/33/Play_OzzyTheFartingDog.bnk",
@@ -23,6 +23,33 @@
       "ShortName": "Music\\OzzyTheFartingDog V01.wav",
       "Path": "Media/62/624693265.wem",
       "CachePath": "SFX/Music/OzzyTheFartingDog V01_FBC78EF0.wem"
+     },
+     {
+      "Id": "868196269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music\\OzzyDies.wav",
+      "Path": "Media/86/868196269.wem",
+      "CachePath": "SFX/Music/OzzyDies_FBC78EF0.wem"
+     },
+     {
+      "Id": "1023450003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music\\OzzySuccessPowerUp.wav",
+      "Path": "Media/10/1023450003.wem",
+      "CachePath": "SFX/Music/OzzySuccessPowerUp_FBC78EF0.wem"
+     },
+     {
+      "Id": "1068680236",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music\\OzzyMenuTheme.wav",
+      "Path": "Media/10/1068680236.wem",
+      "CachePath": "SFX/Music/OzzyMenuTheme_FBC78EF0.wem"
      }
     ],
     "Events": [
@@ -32,6 +59,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_OzzyTheFartingDog",
       "GUID": "{3F7D96AF-3C71-4212-962E-BFED7DD6C789}",
       "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "868196269"
+       },
+       {
+        "Id": "1023450003"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -71,6 +106,19 @@
           "Id": "624693265"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1072505152",
+         "Id": "3604647259",
+         "GUID": "{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1068680236"
+         }
+        ]
        }
       ]
      }
@@ -93,12 +141,32 @@
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\STATE_GameState\\None",
         "GUID": "{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\STATE_GameState\\MainMenu",
+        "GUID": "{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"
        }
       ]
+     }
+    ],
+    "Triggers": [
+     {
+      "Id": "299955236",
+      "Name": "OzzyDies",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\OzzyDies",
+      "GUID": "{5BB107AA-67F4-4BFB-A9C1-487FF7D56366}"
+     },
+     {
+      "Id": "3891327551",
+      "Name": "OzzyPowerUp",
+      "ObjectPath": "\\Triggers\\Default Work Unit\\OzzyPowerUp",
+      "GUID": "{CBB689FC-7390-4AD9-86D5-C4A1A53815E2}"
      }
     ]
    }
   ],
-  "FileHash": "{0FF10A31-9B25-789F-39CF-7F35FAA96FC4}"
+  "FileHash": "{121E5B51-BCAE-42A6-CABC-AD5894780772}"
  }
 }

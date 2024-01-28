@@ -20,6 +20,10 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="RTPC_StingerVolume" ID="{F7126961-E493-4BFE-9593-CF43D15D6486}"/>
+							<Value>-2.29986731534719</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="RTPC_FartBurstVolume" ID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}"/>
 							<Value>0</Value>
 						</RTPCValue>

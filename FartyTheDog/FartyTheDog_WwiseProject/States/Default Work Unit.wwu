@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<State Name="None" ID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"/>
 						<State Name="Gameplay" ID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
+						<State Name="MainMenu" ID="{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

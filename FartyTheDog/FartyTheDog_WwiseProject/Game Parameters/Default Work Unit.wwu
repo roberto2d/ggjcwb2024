@@ -12,6 +12,13 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="200"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RTPC_StingerVolume" ID="{F7126961-E493-4BFE-9593-CF43D15D6486}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-50"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-50"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

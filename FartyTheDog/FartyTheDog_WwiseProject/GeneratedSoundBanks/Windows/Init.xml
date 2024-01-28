@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{3A88140E-A05D-8E19-C769-0E0DE05B8039}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{AA00CE91-B934-0FD6-7894-88ADAD0827EC}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
 					<Plugin Id="367174345" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\FartBursts\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{32860D55-CA76-4462-8655-D1CBCF32CE36}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="925026401" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MX\Stingers\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{44206448-A4E6-460B-905C-A96D401307FA}" LibName="Wwise Meter" LibId="8454147"/>
 				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{6F2A5232-43D9-455F-B78D-E81DAF244B24}" LibName="No Output" LibId="11862023"/>
@@ -24,10 +25,19 @@
 					</PluginRefs>
 				</Bus>
 				<Bus Id="1685527054" Name="MX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MX" GUID="{42158A75-1D2E-469F-A1BE-3AD55109B3BB}"/>
+				<Bus Id="2940432316" Name="Stingers" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MX\Stingers" GUID="{DF6DC042-CD62-4919-8EC5-1E8562902B80}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="925026401"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="4049942058" Name="MainCues" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MX\MainCues" GUID="{E709E0D0-4C85-44E6-8150-70EC722EADB5}"/>
 				<Bus Id="4278941665" Name="FartReleaseLoop" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\FartReleaseLoop" GUID="{5CF46331-A93C-47CD-BC5F-AEF18A2EBA46}"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="414908113" Name="RTPC_StingerVolume" ObjectPath="\Game Parameters\Default Work Unit\RTPC_StingerVolume" GUID="{F7126961-E493-4BFE-9593-CF43D15D6486}"/>
 				<GameParameter Id="2900535066" Name="RTPC_FartBurstVolume" ObjectPath="\Game Parameters\Default Work Unit\RTPC_FartBurstVolume" GUID="{BF2C029F-F68D-4DB3-B661-1C545D764F40}"/>
 			</GameParameters>
 			<StateGroups>
@@ -35,10 +45,11 @@
 					<States>
 						<State Id="89505537" Name="Gameplay" ObjectPath="\States\Default Work Unit\STATE_GameState\Gameplay" GUID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\STATE_GameState\None" GUID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\STATE_GameState\MainMenu" GUID="{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84D18BD6-7CC0-0A5D-F6DD-897DAD5E8369}</FileHash>
+	<FileHash>{5B86A1A2-9E50-1A46-990E-1A84091F5CC4}</FileHash>
 </SoundBanksInfo>

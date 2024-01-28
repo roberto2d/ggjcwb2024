@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2446348440	Play_sfx_doghowl_01			\Default Work Unit\Play_sfx_doghowl_01	
+

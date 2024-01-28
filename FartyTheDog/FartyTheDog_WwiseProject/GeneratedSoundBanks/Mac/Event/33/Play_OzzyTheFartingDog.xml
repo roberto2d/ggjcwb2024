@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{813589B9-181A-742F-9777-EB897F1CF275}">
+		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{8E21ACF2-199E-2E57-9042-BC1A122B30B9}">
 			<ObjectPath>Play_OzzyTheFartingDog</ObjectPath>
 			<ShortName>Play_OzzyTheFartingDog</ShortName>
 			<Path>Event/33/Play_OzzyTheFartingDog.bnk</Path>
@@ -11,9 +11,28 @@
 					<Path>Media/62/624693265.wem</Path>
 					<CachePath>SFX/Music/OzzyTheFartingDog V01_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="868196269" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\OzzyDies.wav</ShortName>
+					<Path>Media/86/868196269.wem</Path>
+					<CachePath>SFX/Music/OzzyDies_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1023450003" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\OzzySuccessPowerUp.wav</ShortName>
+					<Path>Media/10/1023450003.wem</Path>
+					<CachePath>SFX/Music/OzzySuccessPowerUp_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1068680236" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\OzzyMenuTheme.wav</ShortName>
+					<Path>Media/10/1068680236.wem</Path>
+					<CachePath>SFX/Music/OzzyMenuTheme_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="3307764568" Name="Play_OzzyTheFartingDog" ObjectPath="\Events\Default Work Unit\Play_OzzyTheFartingDog" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="868196269"/>
+						<MediaRef Id="1023450003"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1072505152" Id="0" GUID="{915CEB62-D25E-4666-9DBC-9672D4CB8106}"/>
@@ -33,6 +52,12 @@
 								<MediaRef Id="624693265"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1072505152" Id="3604647259" GUID="{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"/>
+							<MediaRefs>
+								<MediaRef Id="1068680236"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
@@ -41,10 +66,15 @@
 					<States>
 						<State Id="89505537" Name="Gameplay" ObjectPath="\States\Default Work Unit\STATE_GameState\Gameplay" GUID="{7E24061E-B583-46FE-98AB-5359B373E057}"/>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\STATE_GameState\None" GUID="{16D0ED7C-1C63-431F-9A49-6DF7E2C4A174}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\STATE_GameState\MainMenu" GUID="{6F1463C7-F48B-4EBF-A65D-5CB28303C5F2}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<Triggers>
+				<Trigger Id="299955236" Name="OzzyDies" ObjectPath="\Triggers\Default Work Unit\OzzyDies" GUID="{5BB107AA-67F4-4BFB-A9C1-487FF7D56366}"/>
+				<Trigger Id="3891327551" Name="OzzyPowerUp" ObjectPath="\Triggers\Default Work Unit\OzzyPowerUp" GUID="{CBB689FC-7390-4AD9-86D5-C4A1A53815E2}"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0994F049-4268-EFFA-5A5B-A4DCA7397223}</FileHash>
+	<FileHash>{B17DC990-A75A-AC8D-6E0D-855555CCBDAC}</FileHash>
 </SoundBanksInfo>
