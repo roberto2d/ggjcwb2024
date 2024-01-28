@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{8E21ACF2-199E-2E57-9042-BC1A122B30B9}">
+		<SoundBank Id="3307764568" Type="Event" GUID="{3F7D96AF-3C71-4212-962E-BFED7DD6C789}" Language="SFX" Hash="{2FB0C8A4-333C-C598-93B1-5CF8FF6DE57F}">
 			<ObjectPath>Play_OzzyTheFartingDog</ObjectPath>
 			<ShortName>Play_OzzyTheFartingDog</ShortName>
 			<Path>Event/33/Play_OzzyTheFartingDog.bnk</Path>
@@ -76,5 +76,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{24AA2832-FF26-6CED-81F7-FCBDBDB49626}</FileHash>
+	<FileHash>{BBA4CB70-7970-2212-D412-C30B6A47ADB6}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{3F7D96AF-3C71-4212-962E-BFED7DD6C789}",
     "Language": "SFX",
-    "Hash": "{8E21ACF2-199E-2E57-9042-BC1A122B30B9}",
+    "Hash": "{2FB0C8A4-333C-C598-93B1-5CF8FF6DE57F}",
     "ObjectPath": "Play_OzzyTheFartingDog",
     "ShortName": "Play_OzzyTheFartingDog",
     "Path": "Event/33/Play_OzzyTheFartingDog.bnk",
@@ -167,6 +167,6 @@
     ]
    }
   ],
-  "FileHash": "{4441778E-AF4F-6E2D-6613-56AEDFF27534}"
+  "FileHash": "{84606E70-0F38-0013-458F-DE86D92ADA4B}"
  }
 }
